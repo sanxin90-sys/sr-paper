@@ -1,0 +1,6 @@
+suite,task,target,noise,estimator,method,seed,status,r2_extrap,nrmse_extrap,complexity,seconds,deriv_rel_err,expression
+static,rh_from_dewpoint,y,0.0,-,ai_feynman,0,ok,-0.4114793191432573,1.1880569511362902,7,900.2,,sqrt(Td**2 + 666.0)
+static,vapour_pressure_deficit,y,0.0,-,ai_feynman,0,ok,0.8505517176841332,0.3865854139978212,11,900.2,,-0.107520782034*T*cos(log(RH)) - 0.107520782034*pi + 0.107520782034
+static,hargreaves_et0,y,0.0,-,ai_feynman,0,ok,0.9986553682760247,0.036669220389520946,12,900.3,,0.008618162625*Ra*sqrt(DTR*(T - pi))
+static,priestley_taylor,y,0.0,-,ai_feynman,0,ok,0.9993662603312177,0.02517418655651784,12,900.4,,-0.294256262112*(G - Rn)*log(T - 1)
+static,penman_monteith_fao56,y,0.0,-,ai_feynman,0,ok,0.8952353197578018,0.323673724979644,11,900.4,,0.273174781461*Rn + 0.273174781461*VPD*exp(sqrt(u2))

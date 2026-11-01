@@ -1,0 +1,79 @@
+rows: 2006 14795, 2008 15809
+
+Timing (mean diurnal cycle, local clock of the file):
+  2006: Rn max at 12.00 h, daytime Rn centroid 12.16 h; T22 max at 15.00 h
+  2008: Rn max at 12.00 h, daytime Rn centroid 12.33 h; T22 max at 14.00 h
+
+M2 coefficient b_s (Rn*sin) and b_c (Rn*cos), 95 % daily-block CI:
+  2006 all  t_sg    b_s=1.43e-03 [1.09e-03, 1.72e-03]  b_c=3.68e-03 [3.17e-03, 4.25e-03]
+  2006 all  t_fd    b_s=1.54e-03 [1.06e-03, 1.97e-03]  b_c=4.46e-03 [3.67e-03, 5.31e-03]
+  2006 all  t_xtfc  b_s=1.44e-03 [1.03e-03, 1.83e-03]  b_c=4.61e-03 [3.85e-03, 5.45e-03]
+  2006 wet  t_sg    b_s=6.81e-04 [2.81e-04, 1.02e-03]  b_c=2.56e-03 [1.77e-03, 3.34e-03]
+  2006 wet  t_fd    b_s=4.31e-04 [-2.87e-05, 8.80e-04]  b_c=3.38e-03 [2.18e-03, 4.40e-03]
+  2006 wet  t_xtfc  b_s=5.83e-04 [1.61e-04, 9.98e-04]  b_c=3.61e-03 [2.54e-03, 4.67e-03]
+  2006 dry  t_sg    b_s=1.86e-03 [7.73e-04, 2.68e-03]  b_c=3.31e-03 [2.39e-03, 4.49e-03]
+  2006 dry  t_fd    b_s=3.16e-03 [2.13e-03, 4.38e-03]  b_c=4.19e-03 [3.10e-03, 5.72e-03]
+  2006 dry  t_xtfc  b_s=2.06e-03 [8.84e-04, 3.19e-03]  b_c=4.02e-03 [2.71e-03, 5.76e-03]
+  2008 all  t_sg    b_s=2.18e-03 [1.81e-03, 2.51e-03]  b_c=8.88e-03 [8.21e-03, 9.61e-03]
+  2008 all  t_fd    b_s=1.87e-03 [1.41e-03, 2.31e-03]  b_c=1.19e-02 [1.09e-02, 1.30e-02]
+  2008 all  t_xtfc  b_s=2.50e-03 [2.02e-03, 2.92e-03]  b_c=9.46e-03 [8.62e-03, 1.04e-02]
+  2008 wet  t_sg    b_s=1.76e-03 [1.15e-03, 2.28e-03]  b_c=5.10e-03 [4.02e-03, 6.11e-03]
+  2008 wet  t_fd    b_s=1.70e-03 [1.07e-03, 2.38e-03]  b_c=6.66e-03 [5.48e-03, 8.02e-03]
+  2008 wet  t_xtfc  b_s=1.99e-03 [1.38e-03, 2.63e-03]  b_c=5.06e-03 [3.84e-03, 6.31e-03]
+  2008 dry  t_sg    b_s=4.54e-04 [-1.12e-03, 1.77e-03]  b_c=1.20e-02 [1.11e-02, 1.30e-02]
+  2008 dry  t_fd    b_s=-6.73e-04 [-2.54e-03, 9.80e-04]  b_c=1.75e-02 [1.61e-02, 1.90e-02]
+  2008 dry  t_xtfc  b_s=2.83e-04 [-1.72e-03, 1.79e-03]  b_c=1.38e-02 [1.26e-02, 1.51e-02]
+
+Daytime slopes of dT/dt on Rn (controlling for T), morning vs afternoon:
+  2006 all  t_sg    morning 0.0017  afternoon 0.0018  ratio 0.95 [0.84, 1.08]
+  2006 all  t_fd    morning 0.0021  afternoon 0.0023  ratio 0.90 [0.78, 1.01]
+  2006 all  t_xtfc  morning 0.0018  afternoon 0.0019  ratio 0.96 [0.82, 1.11]
+  2006 wet  t_sg    morning 0.0015  afternoon 0.0018  ratio 0.84 [0.70, 0.99]
+  2006 wet  t_fd    morning 0.0021  afternoon 0.0027  ratio 0.79 [0.68, 0.90]
+  2006 wet  t_xtfc  morning 0.0016  afternoon 0.0019  ratio 0.82 [0.66, 0.99]
+  2006 dry  t_sg    morning 0.0025  afternoon 0.0020  ratio 1.20 [1.03, 1.42]
+  2006 dry  t_fd    morning 0.0029  afternoon 0.0021  ratio 1.36 [1.11, 1.67]
+  2006 dry  t_xtfc  morning 0.0027  afternoon 0.0021  ratio 1.28 [1.04, 1.61]
+  2008 all  t_sg    morning 0.0024  afternoon 0.0034  ratio 0.71 [0.61, 0.80]
+  2008 all  t_fd    morning 0.0026  afternoon 0.0040  ratio 0.65 [0.54, 0.73]
+  2008 all  t_xtfc  morning 0.0025  afternoon 0.0036  ratio 0.70 [0.60, 0.79]
+  2008 wet  t_sg    morning 0.0023  afternoon 0.0027  ratio 0.86 [0.71, 1.04]
+  2008 wet  t_fd    morning 0.0032  afternoon 0.0038  ratio 0.85 [0.72, 0.98]
+  2008 wet  t_xtfc  morning 0.0026  afternoon 0.0031  ratio 0.85 [0.69, 1.03]
+  2008 dry  t_sg    morning 0.0011  afternoon 0.0043  ratio 0.25 [0.05, 0.45]
+  2008 dry  t_fd    morning 0.0003  afternoon 0.0040  ratio 0.08 [-0.14, 0.30]
+  2008 dry  t_xtfc  morning 0.0008  afternoon 0.0043  ratio 0.18 [-0.03, 0.38]
+
+Out of sample (train 2006, test 2008):
+  t_sg: tau chosen on 2006 = -1 h (R2 by tau: -1.5:0.695, -1:0.714, -0.5:0.714, 0:0.695, 0.5:0.667, 1:0.644, 1.5:0.636, 2:0.638, 2.5:0.640, 3:0.641)
+    R2 2008: M0 0.3867, M1 0.5914, M2 0.6011, M3 0.6316, M4 0.6609, M5 0.6687, M6 0.6440
+    dR2 M2 - M1 = +0.0098 [+0.0069, +0.0129]
+    dR2 M3 - M1 = +0.0402 [+0.0363, +0.0448]
+    dR2 M4 - M1 = +0.0696 [+0.0636, +0.0764]
+    dR2 M5 - M4 = +0.0077 [+0.0056, +0.0097]
+    dR2 M6 - M3 = +0.0124 [+0.0103, +0.0142]
+    dR2 M2 - M4 = -0.0598 [-0.0671, -0.0530]
+    dR2 M2 - M3 = -0.0305 [-0.0356, -0.0253]
+    M4 (2006): a=0.00197 per W m-2, g(dRn/dt)=0.003828, implied lag g/a = 1.94 h
+  t_fd: tau chosen on 2006 = -0.5 h (R2 by tau: -1.5:0.436, -1:0.452, -0.5:0.495, 0:0.476, 0.5:0.415, 1:0.405, 1.5:0.405, 2:0.407, 2.5:0.407, 3:0.407)
+    R2 2008: M0 0.3356, M1 0.4754, M2 0.4889, M3 0.5191, M4 0.5460, M5 0.5598, M6 0.5377
+    dR2 M2 - M1 = +0.0135 [+0.0104, +0.0167]
+    dR2 M3 - M1 = +0.0438 [+0.0384, +0.0499]
+    dR2 M4 - M1 = +0.0707 [+0.0650, +0.0770]
+    dR2 M5 - M4 = +0.0138 [+0.0113, +0.0163]
+    dR2 M6 - M3 = +0.0186 [+0.0159, +0.0212]
+    dR2 M2 - M4 = -0.0572 [-0.0644, -0.0505]
+    dR2 M2 - M3 = -0.0303 [-0.0372, -0.0242]
+    M4 (2006): a=0.002831 per W m-2, g(dRn/dt)=0.004691, implied lag g/a = 1.66 h
+  t_xtfc: tau chosen on 2006 = -0.5 h (R2 by tau: -1.5:0.596, -1:0.611, -0.5:0.614, 0:0.598, 0.5:0.570, 1:0.549, 1.5:0.542, 2:0.544, 2.5:0.548, 3:0.550)
+    R2 2008: M0 0.3119, M1 0.4650, M2 0.4751, M3 0.5020, M4 0.5294, M5 0.5373, M6 0.5147
+    dR2 M2 - M1 = +0.0100 [+0.0066, +0.0133]
+    dR2 M3 - M1 = +0.0369 [+0.0313, +0.0427]
+    dR2 M4 - M1 = +0.0644 [+0.0587, +0.0706]
+    dR2 M5 - M4 = +0.0078 [+0.0047, +0.0107]
+    dR2 M6 - M3 = +0.0127 [+0.0092, +0.0162]
+    dR2 M2 - M4 = -0.0544 [-0.0609, -0.0474]
+    dR2 M2 - M3 = -0.0269 [-0.0329, -0.0204]
+    M4 (2006): a=0.002176 per W m-2, g(dRn/dt)=0.003974, implied lag g/a = 1.83 h
+
+written /mnt/attach/project-files/src/sr_benchmark/results/ailorenz_asymmetry_test.csv

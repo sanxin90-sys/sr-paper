@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Data are not redistributed here (see README, "Data")
+data/
+RAW/
+*.xlsx
+*.npz.tmp
+
+# Local engine installs and run artefacts
+src/sr_benchmark/_aifeynman/
+src/sr_benchmark/aifeynman_fair/work/
+kan_ckpt_*/
+hall_of_fame*.csv*
+outputs/
+local_runs/physo_pilot/runs/
+local_runs/physo_pilot/jruns/
+
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

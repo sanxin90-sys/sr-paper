@@ -1,0 +1,37 @@
+suite,task,target,noise,estimator,method,seed,status,r2_extrap,nrmse_extrap,complexity,seconds,deriv_rel_err,expression
+dynamic,jaru_temperature,dT/dt,0.0,finite_difference,pysr,2,ok,0.9999476624095632,0.007234472367547217,8,79.9,0.0198,Rn*0.0054602744 + 6.847402 - 3.7962828*0.0784270667492765*T
+dynamic,jaru_temperature,dT/dt,0.0,savitzky_golay,pysr,2,ok,0.9999998057432846,0.00044074563574326194,8,60.3,0.0141,Rn*0.005497787 + T*(-0.29984152) + 6.8963804
+dynamic,jaru_temperature,dT/dt,0.0,xtfc_ai_lorenz,pysr,2,ok,0.9999991764182916,0.0009075140265768875,8,60.3,0.0263,Rn*0.0055016014 + T*(-0.29994315) + 6.8977776
+dynamic,jaru_temperature,dT/dt,0.01,finite_difference,pysr,2,ok,0.9999462106010463,0.0073341256434389275,8,60.3,0.0534,Rn*0.0054597617 + T*(-0.2978661) + 6.8506536
+dynamic,jaru_temperature,dT/dt,0.01,savitzky_golay,pysr,2,ok,0.9979405672723973,0.04538097318924189,8,60.4,0.069,6.5937195 + (-Rn + T*54.595222)*(-0.005250456)
+dynamic,jaru_temperature,dT/dt,0.01,xtfc_ai_lorenz,pysr,2,ok,0.9965394112615196,0.058826768893764946,10,60.3,0.0921,(Rn - T**2)/183.61642 + 2.844765
+dynamic,jaru_temperature,dT/dt,0.05,finite_difference,pysr,2,ok,0.9963942491497191,0.06004790462856273,10,60.4,0.2395,(Rn - T**2)*0.005402124 + 2.8247862
+dynamic,jaru_temperature,dT/dt,0.05,savitzky_golay,pysr,2,ok,0.9972509537847591,0.05243134763899276,8,60.3,0.0992,6.548476 + (-Rn/54.63447 + T)*(-0.28475642)
+dynamic,jaru_temperature,dT/dt,0.05,xtfc_ai_lorenz,pysr,2,ok,0.9997783249119633,0.014888757101810693,8,60.3,0.1315,Rn*0.005420539 - 0.29493448*T + 6.7796655
+dynamic,lorenz63,dx/dt,0.0,finite_difference,pysr,2,ok,0.9999890630278182,0.0033071093392517672,24,60.3,0.0026,x*(-0.00029810183*(x*x + z**2*(-0.32691208)) - 10.074825) + y*(z**2*(-2.5977226e-5) - 1*(-10.044427))
+dynamic,lorenz63,dy/dt,0.0,finite_difference,pysr,2,ok,0.9999715941267767,0.005329716054663251,24,60.4,0.0043,x*z*((x + y)*x*1.169643e-5 - 1*1.0020826) + x - (-27.016254)*x - y*(y*0.00044715736*x - 1*(-0.9770774))
+dynamic,lorenz63,dz/dt,0.0,finite_difference,pysr,2,ok,0.9999803196930251,0.004436249201164527,25,60.3,0.003,x*(-(-0.0044618994)*y + y) + (0.07578496 - z)*(z*(y**2 - 0.06409087*z*z)*7.472614e-6 - 1*(-2.6817572))
+dynamic,lorenz63,dx/dt,0.0,savitzky_golay,pysr,2,ok,0.999999995560792,6.662738194569344e-05,21,60.3,0.0,(-x + y*1.000015)*exp((1.36762860724182e-7*x**4 - 8.572512e-6*y*y)*0.036765393)*9.999774
+dynamic,lorenz63,dy/dt,0.0,savitzky_golay,pysr,2,ok,0.999999997928323,4.5515679769443e-05,29,60.4,0.0001,-y + (2.7547375e-7*x**3 + x)*(sqrt(z) + 5.291467)*(-8.512509e-8*y**2 - sqrt(z) + 5.2915144)
+dynamic,lorenz63,dz/dt,0.0,savitzky_golay,pysr,2,ok,0.999999999058494,3.0683969484498483e-05,19,60.4,0.0,x*(x*y*2.3921078e-7*x + y + (x + y)*(-1.2815954e-5)) + z*(-2.6666741)
+dynamic,lorenz63,dx/dt,0.0,xtfc_ai_lorenz,pysr,2,ok,0.9999999999998399,4.0011911321125046e-07,7,60.4,0.0,(-x + y)*10.000004
+dynamic,lorenz63,dy/dt,0.0,xtfc_ai_lorenz,pysr,2,ok,0.9999999999992456,8.685418002225316e-07,11,60.4,0.0,-x*(z - 27.999994) - y + 2.056426e-5
+dynamic,lorenz63,dz/dt,0.0,xtfc_ai_lorenz,pysr,2,ok,0.9999999999999999,1.044239656004407e-08,7,60.4,0.0,x*y - 2.6666667*z
+dynamic,lorenz63,dx/dt,0.01,finite_difference,pysr,2,ok,0.9999909609877172,0.0030064950162628805,7,60.3,0.1203,(x - y)*(-9.969944)
+dynamic,lorenz63,dy/dt,0.01,finite_difference,pysr,2,ok,0.9957076971426182,0.06551566879290634,7,60.3,0.1069,x*(26.995607 - z)
+dynamic,lorenz63,dz/dt,0.01,finite_difference,pysr,2,ok,0.9999999581567997,0.00020455610573712497,7,60.4,0.0737,x*y + z*(-2.6660137)
+dynamic,lorenz63,dx/dt,0.01,savitzky_golay,pysr,2,ok,0.9998037319451736,0.014009570115689067,13,60.3,0.0229,(x - y)*(x**2*(-0.0019498621) - 9.881558)
+dynamic,lorenz63,dy/dt,0.01,savitzky_golay,pysr,2,ok,0.9999151717867478,0.009210223300887211,11,60.4,0.0372,x*(27.922445 - z) - y
+dynamic,lorenz63,dz/dt,0.01,savitzky_golay,pysr,2,ok,0.9998978034995127,0.01010922848130591,21,60.4,0.0278,x*y + z*(-2.6736224) + (-0.04306995*x**2*z + y**2)**2*3.4850855e-5
+dynamic,lorenz63,dx/dt,0.01,xtfc_ai_lorenz,pysr,2,ok,0.9999996696381757,0.0005747711060502809,7,60.4,0.0252,(x - y)*(-10.005746)
+dynamic,lorenz63,dy/dt,0.01,xtfc_ai_lorenz,pysr,2,ok,0.9992306791159323,0.02773663433200993,25,60.4,0.0463,x*(-2.391158*sqrt(z) - 0.7592757*z - 0.00680437419217624*(x - y)**2 + 33.876316) - y
+dynamic,lorenz63,dz/dt,0.01,xtfc_ai_lorenz,pysr,2,ok,0.9997260675153143,0.01655090585695097,13,60.4,0.0344,x*y - z + z*0.31425366 - (z + z) + exp(z*0.40877762 - 15.055395)
+dynamic,lorenz63,dx/dt,0.05,finite_difference,pysr,2,ok,0.9995412145987015,0.021419276395307156,7,60.3,0.6019,(-x + y)*9.785871
+dynamic,lorenz63,dy/dt,0.05,finite_difference,pysr,2,ok,0.9957069649254303,0.06552125666201507,7,60.4,0.5344,x*(26.991655 - z)
+dynamic,lorenz63,dz/dt,0.05,finite_difference,pysr,2,ok,0.9999985835962738,0.0011901276092151538,7,60.4,0.3681,x*y - z/0.375535
+dynamic,lorenz63,dx/dt,0.05,savitzky_golay,pysr,2,ok,0.9999939004079137,0.002469735225962506,7,60.3,0.0781,(-x + y)*10.02469
+dynamic,lorenz63,dy/dt,0.05,savitzky_golay,pysr,2,ok,0.9994741543646803,0.022931324325465737,11,60.4,0.0805,x*(27.806906 - z) - y
+dynamic,lorenz63,dz/dt,0.05,savitzky_golay,pysr,2,ok,0.9999863902308603,0.0036891420601036797,7,60.4,0.0595,x*y + z*(-2.6548905)
+dynamic,lorenz63,dx/dt,0.05,xtfc_ai_lorenz,pysr,2,ok,0.9999989871598464,0.0010063995993685655,7,60.3,0.0854,10.010061*(-x + y)
+dynamic,lorenz63,dy/dt,0.05,xtfc_ai_lorenz,pysr,2,ok,0.9999195821123377,0.008967602113294964,11,60.3,0.0867,x*(27.924488 - z) - y
+dynamic,lorenz63,dz/dt,0.05,xtfc_ai_lorenz,pysr,2,ok,0.9999994841034905,0.0007182593609128066,7,60.4,0.0669,x*y + z*(-2.6643739)

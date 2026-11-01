@@ -1,0 +1,30 @@
+diff --git a/aifeynman/S_gradient_decomposition.py b/aifeynman/S_gradient_decomposition.py
+index 92c8842..8931071 100644
+--- a/aifeynman/S_gradient_decomposition.py
++++ b/aifeynman/S_gradient_decomposition.py
+@@ -105,10 +105,10 @@ def score_consistency(grads_tensor):
+     n_pts = grads_tensor.shape[0]
+     grads_tensor = grads_tensor.cpu()
+     norms = [np.linalg.norm(grads_tensor[i, :].numpy()) for i in range(n_pts)]
+-    normalized_grads = [grads_tensor[i,:].numpy()/norms[i] for i in range(n_pts)]
++    normalized_grads = [grads_tensor[i,:].numpy()/max(norms[i], 1e-12) for i in range(n_pts)]  # local patch: avoid 0/0
+     A = np.array(normalized_grads)
+     D = np.einsum('ij,ik', A, A)
+-    evals, evecs = np.linalg.eig(D)
++    evals, evecs = np.linalg.eigh(D)  # local patch: D = A^T A is symmetric; eig gave complex output that breaks scipy>=1.15 iqr
+     nv = evals.shape[0]
+     assert(nv == A.shape[1])
+     # evecs should be d x (num eigenvectors - probably also d)
+diff --git a/aifeynman/S_run_aifeynman.py b/aifeynman/S_run_aifeynman.py
+index 54a80dc..7f46869 100644
+--- a/aifeynman/S_run_aifeynman.py
++++ b/aifeynman/S_run_aifeynman.py
+@@ -68,7 +68,7 @@ def run_AI_all(pathdir,filename,BF_try_time=60,BF_ops_file_type="14ops", polyfit
+         model_feynman = NN_eval(pathdir,filename)[1]
+     elif path.exists("results/NN_trained_models/models/" + filename + "_pretrained.h5"):
+         print("Found pretrained NN \n")
+-        model_feynman = NN_train(pathdir,filename,NN_epochs/2,lrs=1e-3,N_red_lr=3,pretrained_path="results/NN_trained_models/models/" + filename + "_pretrained.h5")
++        model_feynman = NN_train(pathdir,filename,int(NN_epochs//2),lrs=1e-3,N_red_lr=3,pretrained_path="results/NN_trained_models/models/" + filename + "_pretrained.h5")
+         print("NN loss after training: ", NN_eval(pathdir,filename), "\n")
+     else:
+         print("Training a NN on the data... \n")

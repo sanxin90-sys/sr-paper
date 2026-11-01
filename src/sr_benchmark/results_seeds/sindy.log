@@ -1,0 +1,156 @@
+18:21:47 tetens_es                y      noise=0.0   -                  sindy_stlsq  ok                             R2=0.9995
+18:21:47 tetens_es                y      noise=0.0   -                  sindy_poly2  ok                             R2=0.9888
+18:21:47 tetens_es                y      noise=0.05  -                  sindy_stlsq  ok                             R2=0.9964
+18:21:47 tetens_es                y      noise=0.05  -                  sindy_poly2  ok                             R2=0.9884
+18:21:47 stefan_boltzmann         y      noise=0.0   -                  sindy_stlsq  ok                             R2=1.0000
+18:21:47 stefan_boltzmann         y      noise=0.0   -                  sindy_poly2  ok                             R2=0.9999
+18:21:47 stefan_boltzmann         y      noise=0.05  -                  sindy_stlsq  ok                             R2=0.9999
+18:21:47 stefan_boltzmann         y      noise=0.05  -                  sindy_poly2  ok                             R2=0.9998
+18:21:47 monin_obukhov_length     y      noise=0.0   -                  sindy_stlsq  ok                             R2=0.8953
+18:21:47 monin_obukhov_length     y      noise=0.0   -                  sindy_poly2  ok                             R2=0.5341
+18:21:47 monin_obukhov_length     y      noise=0.05  -                  sindy_stlsq  ok                             R2=0.8879
+18:21:47 monin_obukhov_length     y      noise=0.05  -                  sindy_poly2  ok                             R2=0.5338
+18:21:47 log_wind_profile         y      noise=0.0   -                  sindy_stlsq  ok                             R2=0.9998
+18:21:47 log_wind_profile         y      noise=0.0   -                  sindy_poly2  ok                             R2=0.9864
+18:21:47 log_wind_profile         y      noise=0.05  -                  sindy_stlsq  ok                             R2=0.9990
+18:21:47 log_wind_profile         y      noise=0.05  -                  sindy_poly2  ok                             R2=0.9864
+18:21:47 bulk_sensible_heat       y      noise=0.0   -                  sindy_stlsq  ok                             R2=0.9615
+18:21:47 bulk_sensible_heat       y      noise=0.0   -                  sindy_poly2  ok                             R2=0.9418
+18:21:47 bulk_sensible_heat       y      noise=0.05  -                  sindy_stlsq  ok                             R2=0.9747
+18:21:47 bulk_sensible_heat       y      noise=0.05  -                  sindy_poly2  ok                             R2=0.9421
+18:21:47 rh_from_dewpoint         y      noise=0.0   -                  sindy_stlsq  ok                             R2=0.9862
+18:21:47 rh_from_dewpoint         y      noise=0.0   -                  sindy_poly2  ok                             R2=0.9931
+18:21:47 rh_from_dewpoint         y      noise=0.05  -                  sindy_stlsq  ok                             R2=0.8858
+18:21:47 rh_from_dewpoint         y      noise=0.05  -                  sindy_poly2  ok                             R2=0.9934
+18:21:47 vapour_pressure_deficit  y      noise=0.0   -                  sindy_stlsq  ok                             R2=0.9703
+18:21:47 vapour_pressure_deficit  y      noise=0.0   -                  sindy_poly2  ok                             R2=0.9885
+18:21:47 vapour_pressure_deficit  y      noise=0.05  -                  sindy_stlsq  ok                             R2=0.9829
+18:21:47 vapour_pressure_deficit  y      noise=0.05  -                  sindy_poly2  ok                             R2=0.9884
+18:21:47 hargreaves_et0           y      noise=0.0   -                  sindy_stlsq  ok                             R2=0.9972
+18:21:47 hargreaves_et0           y      noise=0.0   -                  sindy_poly2  ok                             R2=0.9949
+18:21:47 hargreaves_et0           y      noise=0.05  -                  sindy_stlsq  ok                             R2=0.9985
+18:21:47 hargreaves_et0           y      noise=0.05  -                  sindy_poly2  ok                             R2=0.9949
+18:21:47 priestley_taylor         y      noise=0.0   -                  sindy_stlsq  ok                             R2=0.9809
+18:21:47 priestley_taylor         y      noise=0.0   -                  sindy_poly2  ok                             R2=0.9813
+18:21:47 priestley_taylor         y      noise=0.05  -                  sindy_stlsq  ok                             R2=0.9584
+18:21:47 priestley_taylor         y      noise=0.05  -                  sindy_poly2  ok                             R2=0.9813
+18:21:47 penman_monteith_fao56    y      noise=0.0   -                  sindy_stlsq  ok                             R2=0.9843
+18:21:47 penman_monteith_fao56    y      noise=0.0   -                  sindy_poly2  ok                             R2=0.9875
+18:21:47 penman_monteith_fao56    y      noise=0.05  -                  sindy_stlsq  ok                             R2=0.9851
+18:21:47 penman_monteith_fao56    y      noise=0.05  -                  sindy_poly2  ok                             R2=0.9877
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/bench/run_benchmark.py", line 165, in main
+    dynamic_suite(args.methods, args.noise, args.budget, args.seed, writer)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/bench/run_benchmark.py", line 111, in dynamic_suite
+    train, test = _dynamic_data(task, seed)
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/bench/run_benchmark.py", line 85, in _dynamic_data
+    train = simulate_jaru(n_days=60, seed=seed)
+  File "/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/bench/tasks.py", line 191, in simulate_jaru
+    from data_inspection import GeneratorConfig, generate_synthetic
+ModuleNotFoundError: No module named 'data_inspection'
+18:21:51 tetens_es                y      noise=0.0   -                  sindy_stlsq  ok                             R2=0.9996
+18:21:51 tetens_es                y      noise=0.0   -                  sindy_poly2  ok                             R2=0.9891
+18:21:51 tetens_es                y      noise=0.05  -                  sindy_stlsq  ok                             R2=0.9994
+18:21:51 tetens_es                y      noise=0.05  -                  sindy_poly2  ok                             R2=0.9892
+18:21:51 stefan_boltzmann         y      noise=0.0   -                  sindy_stlsq  ok                             R2=1.0000
+18:21:51 stefan_boltzmann         y      noise=0.0   -                  sindy_poly2  ok                             R2=0.9999
+18:21:51 stefan_boltzmann         y      noise=0.05  -                  sindy_stlsq  ok                             R2=0.9991
+18:21:51 stefan_boltzmann         y      noise=0.05  -                  sindy_poly2  ok                             R2=0.9999
+18:21:51 monin_obukhov_length     y      noise=0.0   -                  sindy_stlsq  ok                             R2=0.8999
+18:21:51 monin_obukhov_length     y      noise=0.0   -                  sindy_poly2  ok                             R2=0.5180
+18:21:51 monin_obukhov_length     y      noise=0.05  -                  sindy_stlsq  ok                             R2=0.8887
+18:21:51 monin_obukhov_length     y      noise=0.05  -                  sindy_poly2  ok                             R2=0.5176
+18:21:51 log_wind_profile         y      noise=0.0   -                  sindy_stlsq  ok                             R2=0.9999
+18:21:51 log_wind_profile         y      noise=0.0   -                  sindy_poly2  ok                             R2=0.9887
+18:21:51 log_wind_profile         y      noise=0.05  -                  sindy_stlsq  ok                             R2=0.9987
+18:21:51 log_wind_profile         y      noise=0.05  -                  sindy_poly2  ok                             R2=0.9887
+18:21:51 bulk_sensible_heat       y      noise=0.0   -                  sindy_stlsq  ok                             R2=0.9762
+18:21:51 bulk_sensible_heat       y      noise=0.0   -                  sindy_poly2  ok                             R2=0.9379
+18:21:51 bulk_sensible_heat       y      noise=0.05  -                  sindy_stlsq  ok                             R2=0.9754
+18:21:51 bulk_sensible_heat       y      noise=0.05  -                  sindy_poly2  ok                             R2=0.9381
+18:21:51 rh_from_dewpoint         y      noise=0.0   -                  sindy_stlsq  ok                             R2=0.9865
+18:21:51 rh_from_dewpoint         y      noise=0.0   -                  sindy_poly2  ok                             R2=0.9933
+18:21:51 rh_from_dewpoint         y      noise=0.05  -                  sindy_stlsq  ok                             R2=0.9585
+18:21:51 rh_from_dewpoint         y      noise=0.05  -                  sindy_poly2  ok                             R2=0.9931
+18:21:51 vapour_pressure_deficit  y      noise=0.0   -                  sindy_stlsq  ok                             R2=0.9813
+18:21:51 vapour_pressure_deficit  y      noise=0.0   -                  sindy_poly2  ok                             R2=0.9883
+18:21:52 vapour_pressure_deficit  y      noise=0.05  -                  sindy_stlsq  ok                             R2=0.9773
+18:21:52 vapour_pressure_deficit  y      noise=0.05  -                  sindy_poly2  ok                             R2=0.9883
+18:21:52 hargreaves_et0           y      noise=0.0   -                  sindy_stlsq  ok                             R2=0.9956
+18:21:52 hargreaves_et0           y      noise=0.0   -                  sindy_poly2  ok                             R2=0.9950
+18:21:52 hargreaves_et0           y      noise=0.05  -                  sindy_stlsq  ok                             R2=0.9919
+18:21:52 hargreaves_et0           y      noise=0.05  -                  sindy_poly2  ok                             R2=0.9949
+18:21:52 priestley_taylor         y      noise=0.0   -                  sindy_stlsq  ok                             R2=0.9813
+18:21:52 priestley_taylor         y      noise=0.0   -                  sindy_poly2  ok                             R2=0.9815
+18:21:52 priestley_taylor         y      noise=0.05  -                  sindy_stlsq  ok                             R2=0.9789
+18:21:52 priestley_taylor         y      noise=0.05  -                  sindy_poly2  ok                             R2=0.9816
+18:21:52 penman_monteith_fao56    y      noise=0.0   -                  sindy_stlsq  ok                             R2=0.9903
+18:21:52 penman_monteith_fao56    y      noise=0.0   -                  sindy_poly2  ok                             R2=0.9873
+18:21:52 penman_monteith_fao56    y      noise=0.05  -                  sindy_stlsq  ok                             R2=0.9816
+18:21:52 penman_monteith_fao56    y      noise=0.05  -                  sindy_poly2  ok                             R2=0.9877
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/bench/run_benchmark.py", line 165, in main
+    dynamic_suite(args.methods, args.noise, args.budget, args.seed, writer)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/bench/run_benchmark.py", line 111, in dynamic_suite
+    train, test = _dynamic_data(task, seed)
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/bench/run_benchmark.py", line 85, in _dynamic_data
+    train = simulate_jaru(n_days=60, seed=seed)
+  File "/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/bench/tasks.py", line 191, in simulate_jaru
+    from data_inspection import GeneratorConfig, generate_synthetic
+ModuleNotFoundError: No module named 'data_inspection'
+18:21:55 tetens_es                y      noise=0.0   -                  sindy_stlsq  ok                             R2=0.9994
+18:21:55 tetens_es                y      noise=0.0   -                  sindy_poly2  ok                             R2=0.9886
+18:21:55 tetens_es                y      noise=0.05  -                  sindy_stlsq  ok                             R2=-106567.3381
+18:21:55 tetens_es                y      noise=0.05  -                  sindy_poly2  ok                             R2=0.9891
+18:21:55 stefan_boltzmann         y      noise=0.0   -                  sindy_stlsq  ok                             R2=1.0000
+18:21:55 stefan_boltzmann         y      noise=0.0   -                  sindy_poly2  ok                             R2=0.9999
+18:21:55 stefan_boltzmann         y      noise=0.05  -                  sindy_stlsq  ok                             R2=0.9998
+18:21:55 stefan_boltzmann         y      noise=0.05  -                  sindy_poly2  ok                             R2=0.9999
+18:21:55 monin_obukhov_length     y      noise=0.0   -                  sindy_stlsq  ok                             R2=0.9093
+18:21:55 monin_obukhov_length     y      noise=0.0   -                  sindy_poly2  ok                             R2=0.5330
+18:21:56 monin_obukhov_length     y      noise=0.05  -                  sindy_stlsq  ok                             R2=0.9028
+18:21:56 monin_obukhov_length     y      noise=0.05  -                  sindy_poly2  ok                             R2=0.5323
+18:21:56 log_wind_profile         y      noise=0.0   -                  sindy_stlsq  ok                             R2=0.9997
+18:21:56 log_wind_profile         y      noise=0.0   -                  sindy_poly2  ok                             R2=0.9872
+18:21:56 log_wind_profile         y      noise=0.05  -                  sindy_stlsq  ok                             R2=0.9993
+18:21:56 log_wind_profile         y      noise=0.05  -                  sindy_poly2  ok                             R2=0.9871
+18:21:56 bulk_sensible_heat       y      noise=0.0   -                  sindy_stlsq  ok                             R2=0.9715
+18:21:56 bulk_sensible_heat       y      noise=0.0   -                  sindy_poly2  ok                             R2=0.9399
+18:21:56 bulk_sensible_heat       y      noise=0.05  -                  sindy_stlsq  ok                             R2=0.9720
+18:21:56 bulk_sensible_heat       y      noise=0.05  -                  sindy_poly2  ok                             R2=0.9399
+18:21:56 rh_from_dewpoint         y      noise=0.0   -                  sindy_stlsq  ok                             R2=0.9706
+18:21:56 rh_from_dewpoint         y      noise=0.0   -                  sindy_poly2  ok                             R2=0.9929
+18:21:56 rh_from_dewpoint         y      noise=0.05  -                  sindy_stlsq  ok                             R2=0.9533
+18:21:56 rh_from_dewpoint         y      noise=0.05  -                  sindy_poly2  ok                             R2=0.9925
+18:21:56 vapour_pressure_deficit  y      noise=0.0   -                  sindy_stlsq  ok                             R2=0.9833
+18:21:56 vapour_pressure_deficit  y      noise=0.0   -                  sindy_poly2  ok                             R2=0.9891
+18:21:56 vapour_pressure_deficit  y      noise=0.05  -                  sindy_stlsq  ok                             R2=0.9727
+18:21:56 vapour_pressure_deficit  y      noise=0.05  -                  sindy_poly2  ok                             R2=0.9893
+18:21:56 hargreaves_et0           y      noise=0.0   -                  sindy_stlsq  ok                             R2=0.9982
+18:21:56 hargreaves_et0           y      noise=0.0   -                  sindy_poly2  ok                             R2=0.9951
+18:21:56 hargreaves_et0           y      noise=0.05  -                  sindy_stlsq  ok                             R2=0.9962
+18:21:56 hargreaves_et0           y      noise=0.05  -                  sindy_poly2  ok                             R2=0.9950
+18:21:56 priestley_taylor         y      noise=0.0   -                  sindy_stlsq  ok                             R2=0.9488
+18:21:56 priestley_taylor         y      noise=0.0   -                  sindy_poly2  ok                             R2=0.9800
+18:21:56 priestley_taylor         y      noise=0.05  -                  sindy_stlsq  ok                             R2=0.9197
+18:21:56 priestley_taylor         y      noise=0.05  -                  sindy_poly2  ok                             R2=0.9798
+18:21:56 penman_monteith_fao56    y      noise=0.0   -                  sindy_stlsq  ok                             R2=0.9857
+18:21:56 penman_monteith_fao56    y      noise=0.0   -                  sindy_poly2  ok                             R2=0.9874
+18:21:56 penman_monteith_fao56    y      noise=0.05  -                  sindy_stlsq  ok                             R2=0.9907
+18:21:56 penman_monteith_fao56    y      noise=0.05  -                  sindy_poly2  ok                             R2=0.9873
+Traceback (most recent call last):
+  File "/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/bench/run_benchmark.py", line 165, in main
+    dynamic_suite(args.methods, args.noise, args.budget, args.seed, writer)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/bench/run_benchmark.py", line 111, in dynamic_suite
+    train, test = _dynamic_data(task, seed)
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/bench/run_benchmark.py", line 85, in _dynamic_data
+    train = simulate_jaru(n_days=60, seed=seed)
+  File "/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/bench/tasks.py", line 191, in simulate_jaru
+    from data_inspection import GeneratorConfig, generate_synthetic
+ModuleNotFoundError: No module named 'data_inspection'

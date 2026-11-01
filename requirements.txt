@@ -1,0 +1,20 @@
+# Core (versions used for the cloud runs)
+numpy>=2.0
+scipy>=1.13
+pandas>=2.2
+sympy==1.14.0
+scikit-learn>=1.5
+pysindy==2.1.0
+pyoperon==0.6.2
+gplearn==0.4.3
+openpyxl>=3.1
+matplotlib>=3.9
+tabulate>=0.9          # pandas.to_markdown in summarize.py
+# Neural engines (separate environment recommended)
+torch>=2.3
+pykan==0.2.8
+physo==1.1.11
+# PySR runs with Julia 1.11 (installed by juliacall on first use)
+pysr==2.7.0
+# AI Feynman (commit a05bc4a) and DSO (TensorFlow 2 port) are installed from source:
+#   see src/sr_benchmark/setup_aifeynman.sh and src/sr_benchmark/dso_tf2/

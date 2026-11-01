@@ -1,0 +1,3 @@
+task,seed,epochs,bf,cap,finished,timed_out,seconds,n_pareto,r2_extrap,nrmse_extrap,complexity,expression,oracle_r2,oracle_expression
+monin_obukhov_length,0,4000,60,6600,False,False,3606.1,9,-0.213643581586052,1.1016549285443478,6,-asin(0.000475726767*ustar),-0.213643581586052,-asin(0.000475726767*ustar)
+bulk_sensible_heat,0,4000,60,6600,False,False,3608.5,8,-0.2405915772207481,1.1138184669059623,7,sqrt(u**3 + 666.0),-0.2405915772207481,sqrt(u**3 + 666.0)

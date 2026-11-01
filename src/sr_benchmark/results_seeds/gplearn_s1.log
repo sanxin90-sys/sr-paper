@@ -1,0 +1,1318 @@
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+18:55:56 tetens_es                y      noise=0.0   -                  gplearn      ok                             R2=-30.5090
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+18:56:42 tetens_es                y      noise=0.05  -                  gplearn      ok                             R2=-0.9304
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+18:57:29 stefan_boltzmann         y      noise=0.0   -                  gplearn      ok                             R2=0.9416
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+18:58:14 stefan_boltzmann         y      noise=0.05  -                  gplearn      ok                             R2=0.8090
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+18:59:00 monin_obukhov_length     y      noise=0.0   -                  gplearn      ok                             R2=-0.2603
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+18:59:47 monin_obukhov_length     y      noise=0.05  -                  gplearn      ok                             R2=-0.2348
+19:00:32 log_wind_profile         y      noise=0.0   -                  gplearn      ok                             R2=0.9920
+19:01:18 log_wind_profile         y      noise=0.05  -                  gplearn      ok                             R2=0.9957
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+19:02:03 bulk_sensible_heat       y      noise=0.0   -                  gplearn      ok                             R2=0.9968
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+19:02:49 bulk_sensible_heat       y      noise=0.05  -                  gplearn      ok                             R2=0.9991
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+19:03:35 rh_from_dewpoint         y      noise=0.0   -                  gplearn      ok                             R2=-2.6775
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+19:04:21 rh_from_dewpoint         y      noise=0.05  -                  gplearn      ok                             R2=-2.8595
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+19:05:06 vapour_pressure_deficit  y      noise=0.0   -                  gplearn      ok                             R2=0.5400
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+19:05:52 vapour_pressure_deficit  y      noise=0.05  -                  gplearn      ok                             R2=0.5400
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+19:06:37 hargreaves_et0           y      noise=0.0   -                  gplearn      ok                             R2=0.8659
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+19:07:23 hargreaves_et0           y      noise=0.05  -                  gplearn      ok                             R2=0.7312
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+19:08:09 priestley_taylor         y      noise=0.0   -                  gplearn      ok                             R2=0.9959
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+19:08:55 priestley_taylor         y      noise=0.05  -                  gplearn      ok                             R2=0.9903
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+19:09:41 penman_monteith_fao56    y      noise=0.0   -                  gplearn      ok                             R2=0.7110
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+19:10:27 penman_monteith_fao56    y      noise=0.05  -                  gplearn      ok                             R2=0.7231
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+19:11:03 jaru_temperature         dT/dt  noise=0.0   finite_difference  gplearn      ok                             R2=0.4626
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+19:11:33 jaru_temperature         dT/dt  noise=0.0   savitzky_golay     gplearn      ok                             R2=0.4624
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+19:12:03 jaru_temperature         dT/dt  noise=0.0   xtfc_ai_lorenz     gplearn      ok                             R2=0.4624
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+19:12:34 jaru_temperature         dT/dt  noise=0.01  finite_difference  gplearn      ok                             R2=0.4626
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+19:13:04 jaru_temperature         dT/dt  noise=0.01  savitzky_golay     gplearn      ok                             R2=0.4662
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+19:13:34 jaru_temperature         dT/dt  noise=0.01  xtfc_ai_lorenz     gplearn      ok                             R2=0.4609
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+19:14:05 jaru_temperature         dT/dt  noise=0.05  finite_difference  gplearn      ok                             R2=0.6998
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+19:14:35 jaru_temperature         dT/dt  noise=0.05  savitzky_golay     gplearn      ok                             R2=0.4662
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+19:15:06 jaru_temperature         dT/dt  noise=0.05  xtfc_ai_lorenz     gplearn      ok                             R2=0.6895
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+19:15:37 lorenz63                 dx/dt  noise=0.0   finite_difference  gplearn      ok                             R2=1.0000
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+19:16:09 lorenz63                 dy/dt  noise=0.0   finite_difference  gplearn      ok                             R2=0.7875
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+19:16:39 lorenz63                 dz/dt  noise=0.0   finite_difference  gplearn      ok                             R2=1.0000
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+19:17:10 lorenz63                 dx/dt  noise=0.0   savitzky_golay     gplearn      ok                             R2=1.0000
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+19:17:41 lorenz63                 dy/dt  noise=0.0   savitzky_golay     gplearn      ok                             R2=0.8167
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+19:18:11 lorenz63                 dz/dt  noise=0.0   savitzky_golay     gplearn      ok                             R2=1.0000
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+19:18:42 lorenz63                 dx/dt  noise=0.0   xtfc_ai_lorenz     gplearn      ok                             R2=0.9998
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+19:19:14 lorenz63                 dy/dt  noise=0.0   xtfc_ai_lorenz     gplearn      ok                             R2=0.8597
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+19:19:44 lorenz63                 dz/dt  noise=0.0   xtfc_ai_lorenz     gplearn      ok                             R2=1.0000
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+19:20:15 lorenz63                 dx/dt  noise=0.01  finite_difference  gplearn      ok                             R2=0.9950
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+19:20:47 lorenz63                 dy/dt  noise=0.01  finite_difference  gplearn      ok                             R2=0.9655
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+19:21:17 lorenz63                 dz/dt  noise=0.01  finite_difference  gplearn      ok                             R2=1.0000
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+19:21:48 lorenz63                 dx/dt  noise=0.01  savitzky_golay     gplearn      ok                             R2=0.9999
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+19:22:21 lorenz63                 dy/dt  noise=0.01  savitzky_golay     gplearn      ok                             R2=0.9519
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+19:22:51 lorenz63                 dz/dt  noise=0.01  savitzky_golay     gplearn      ok                             R2=1.0000
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+19:23:21 lorenz63                 dx/dt  noise=0.01  xtfc_ai_lorenz     gplearn      ok                             R2=1.0000
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+19:23:53 lorenz63                 dy/dt  noise=0.01  xtfc_ai_lorenz     gplearn      ok                             R2=0.9490
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+19:24:24 lorenz63                 dz/dt  noise=0.01  xtfc_ai_lorenz     gplearn      ok                             R2=1.0000
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+19:24:55 lorenz63                 dx/dt  noise=0.05  finite_difference  gplearn      ok                             R2=0.9970
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+19:25:25 lorenz63                 dy/dt  noise=0.05  finite_difference  gplearn      ok                             R2=0.9682
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+19:25:56 lorenz63                 dz/dt  noise=0.05  finite_difference  gplearn      ok                             R2=0.9996
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+19:26:26 lorenz63                 dx/dt  noise=0.05  savitzky_golay     gplearn      ok                             R2=0.9999
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+19:26:57 lorenz63                 dy/dt  noise=0.05  savitzky_golay     gplearn      ok                             R2=0.9666
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+19:27:28 lorenz63                 dz/dt  noise=0.05  savitzky_golay     gplearn      ok                             R2=0.9999
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+19:27:58 lorenz63                 dx/dt  noise=0.05  xtfc_ai_lorenz     gplearn      ok                             R2=1.0000
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+19:28:29 lorenz63                 dy/dt  noise=0.05  xtfc_ai_lorenz     gplearn      ok                             R2=0.8933
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:127: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x2) > 0.001, np.divide(x1, x2), 1.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+/tmp/claude-0/-home-claude/1bba3474-96b0-5868-a589-6868a680e616/scratchpad/venv/lib/python3.13/site-packages/gplearn/functions.py:144: RuntimeWarning: overflow encountered in divide
+  return np.where(np.abs(x1) > 0.001, 1. / x1, 0.)
+19:28:59 lorenz63                 dz/dt  noise=0.05  xtfc_ai_lorenz     gplearn      ok                             R2=0.9998

@@ -1,0 +1,6 @@
+task,seed,epochs,bf,cap,finished,timed_out,seconds,n_pareto,r2_extrap,nrmse_extrap,complexity,expression,oracle_r2,oracle_expression
+monin_obukhov_length,0,4000,60,7000,True,False,4480.8,11,0.9990403972343015,0.030977455765419663,12,-1.508973862892*theta*(ustar - sin(ustar))/wth,0.9990403972343015,-1.508973862892*theta*(ustar - sin(ustar))/wth
+priestley_taylor,0,4000,60,7000,True,False,4496.4,12,0.9993667416409466,0.025164625152252696,12,-0.294261046856*(G - Rn)*log(T - 1),0.9993667416409466,-0.294261046856*(G - Rn)*log(T - 1)
+bulk_sensible_heat,0,4000,60,7000,True,False,5770.0,14,0.9993266709818079,0.02594858412692311,16,15.0378348654113*dT*u/log((z + 2)/pi + 1),0.9993266709818079,15.0378348654113*dT*u/log((z + 2)/pi + 1)
+hargreaves_et0,0,4000,60,7000,True,False,6884.9,11,0.999976945096417,0.004801552205591815,17,0.012492000986*Ra*sqrt(DTR*exp(sqrt(T)/(-1 + pi))),0.999976945096417,0.012492000986*Ra*sqrt(DTR*exp(sqrt(T)/(-1 + pi)))
+penman_monteith_fao56,0,4000,60,7000,False,True,7000.0,6,-0.2872611057604031,1.1345752975278471,5,5.11355832919 + 1/T,-0.21511213385399408,exp(1 + pi/log(T + 1)) + 0.574901723283
