@@ -3,7 +3,8 @@ message: "If you use this code, please cite it using these metadata."
 title: "When does symbolic regression add to tower micrometeorology? Code and results"
 type: software
 authors:
-  - name: "sanxin90-sys"
+  - family-names: "Silva"
+    given-names: "Ian"
     orcid: "https://orcid.org/0000-0001-8558-5156"
 license: MIT
 repository-code: "https://github.com/sanxin90-sys/sr-paper"
