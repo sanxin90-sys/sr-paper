@@ -1,0 +1,41 @@
+suite,task,target,noise,estimator,method,seed,status,r2_extrap,nrmse_extrap,complexity,seconds,deriv_rel_err,expression
+static,bulk_sensible_heat,y,0.0,-,dso,0,ok,0.75689756,0.4930542,17,37.7,,dT*sqrt(u)*(2*u + sqrt(dT*u + dT + u))
+static,bulk_sensible_heat,y,0.05,-,dso,0,ok,0.75689756,0.4930542,17,38.6,,dT*sqrt(u)*(2*u + sqrt(dT*u + dT + u))
+static,hargreaves_et0,y,0.0,-,dso,0,ok,0.72218208,0.52708436,16,37.5,,Ra*exp(-exp(2/log(DTR*log(T)/2)))
+static,hargreaves_et0,y,0.05,-,dso,0,ok,0.72218208,0.52708436,16,37.1,,Ra*exp(-exp(2/log(DTR*log(T)/2)))
+static,log_wind_profile,y,0.0,-,dso,0,ok,0.98537716,0.12092494,25,37.2,,-ustar*(ustar + (ustar - z)/log(ustar + z**2/ustar)) + ustar
+static,log_wind_profile,y,0.05,-,dso,0,ok,0.98537716,0.12092494,25,38.7,,-ustar*(ustar + (ustar - z)/log(ustar + z**2/ustar)) + ustar
+static,monin_obukhov_length,y,0.0,-,dso,0,ok,-272.83678301,16.54801447,14,39.5,,sqrt(theta)*ustar**2/(wth*log(ustar))
+static,monin_obukhov_length,y,0.05,-,dso,0,ok,-272.83678301,16.54801447,14,37.8,,sqrt(theta)*ustar**2/(wth*log(ustar))
+static,penman_monteith_fao56,y,0.0,-,dso,0,ok,0.68973952,0.55701031,25,40.5,,Rn*VPD/T + VPD + sqrt(-Rn + log(Rn + 2*VPD)) + u2/T
+static,penman_monteith_fao56,y,0.05,-,dso,0,ok,0.68973952,0.55701031,25,42.5,,Rn*VPD/T + VPD + sqrt(-Rn + log(Rn + 2*VPD)) + u2/T
+static,priestley_taylor,y,0.0,-,dso,0,ok,0.96126888,0.19680224,11,38.1,,-G + Rn - Rn/T
+static,priestley_taylor,y,0.05,-,dso,0,ok,0.96138628,0.19650374,18,39.3,,-G + Rn - Rn/T - sqrt(1/G)
+static,rh_from_dewpoint,y,0.0,-,dso,0,ok,0.3985149,0.77555471,8,42.9,,T + 3*Td + 1/T
+static,rh_from_dewpoint,y,0.05,-,dso,0,ok,0.3985149,0.77555471,8,43.7,,T + 3*Td + 1/T
+static,stefan_boltzmann,y,0.0,-,dso,0,ok,0.52717241,0.6876246,26,38.2,,Tk*eps/(eps*log(2/log(-eps + sqrt(-Tk + eps))) + 1)
+static,stefan_boltzmann,y,0.05,-,dso,0,ok,0.77863993,0.47048918,18,39.0,,eps*(Tk*log(sqrt(exp(sqrt(Tk)))/Tk) + 2)/2
+static,tetens_es,y,0.0,-,dso,0,ok,0.94927716,0.22521731,12,54.0,,T*sqrt(sqrt(T) - log(T))
+static,tetens_es,y,0.05,-,dso,0,ok,0.94927716,0.22521731,12,54.9,,T*sqrt(sqrt(T) - log(T))
+static,vapour_pressure_deficit,y,0.0,-,dso,0,ok,0.78941205,0.45889862,20,38.7,,sqrt(RH)*T/(RH**2/T + RH + 1/sqrt(exp(RH)))
+static,vapour_pressure_deficit,y,0.05,-,dso,0,ok,0.78941205,0.45889862,20,38.7,,sqrt(RH)*T/(RH**2/T + RH + 1/sqrt(exp(RH)))
+static,bulk_sensible_heat,y,0.0,-,dso_const,0,ok,0.99706217,0.05420172,10,251.5,,20.169253324398692*dT*u/(log(z) - 0.1565114694672275)
+static,bulk_sensible_heat,y,0.05,-,dso_const,0,ok,0.99711874,0.05367739,10,238.8,,20.194853176978105*dT*u/(log(z) - 0.153251564340604)
+static,hargreaves_et0,y,0.0,-,dso_const,0,ok,0.98309079,0.13003543,19,262.8,,DTR*Ra*T/(DTR*(107.82187235710133 - 5.862369479617393*exp(exp(Ra))) + 34.36736433147541*T)
+static,hargreaves_et0,y,0.05,-,dso_const,0,ok,0.98293562,0.13063068,19,263.4,,DTR*Ra*T/(DTR*(108.11374263223036 - 5.8572108444460891*exp(exp(Ra))) + 34.306936043270574*T)
+static,log_wind_profile,y,0.0,-,dso_const,0,ok,0.99946555,0.02311821,31,369.4,,10.611615576631344*ustar - 194.1924450112755*ustar/z - 21.223231153262688*ustar/(z*log(z + exp(-1/(sqrt(z) + z))))
+static,log_wind_profile,y,0.05,-,dso_const,0,ok,0.9995338,0.02159178,23,368.0,,(ustar*(-ustar*log(ustar) - ustar + 10.68193442225048*z - 202.04143978633059) - 0.00989900824852678*z)/z
+static,monin_obukhov_length,y,0.0,-,dso_const,0,ok,0.99836476,0.04043809,31,148.7,,(126.36844979792953*ustar - 23.140062955567846*wth**2*(ustar - exp(1/ustar)))/(wth*(ustar - exp(1/ustar)))
+static,monin_obukhov_length,y,0.05,-,dso_const,0,ok,0.99844267,0.03946307,31,150.1,,(126.63859667399121*ustar - 23.18044850354582*wth**2*(ustar - exp(1/ustar)))/(wth*(ustar - exp(1/ustar)))
+static,penman_monteith_fao56,y,0.0,-,dso_const,0,ok,0.81645428,0.42842236,17,247.7,,0.2198651338009284*Rn + 0.4397302676018568*VPD*log(u2*(T + u2 + exp(-0.727599573550612*Rn)))
+static,penman_monteith_fao56,y,0.05,-,dso_const,0,ok,0.81606707,0.42887403,17,240.6,,0.2197049867067084*Rn + 0.4394099734134168*VPD*log(u2*(T + u2 + exp(-0.7283030873535646*Rn)))
+static,priestley_taylor,y,0.0,-,dso_const,0,ok,0.99641969,0.05983565,20,175.4,,-(G*(G - 1.2494567577923317*Rn) + 1)*exp(-7.394173456409236/T)/G
+static,priestley_taylor,y,0.05,-,dso_const,0,ok,0.99619333,0.0616982,20,182.7,,-(G*(G - 1.2525925832512497*Rn) + 1)*exp(-7.480676216022599/T)/G
+static,rh_from_dewpoint,y,0.0,-,dso_const,0,ok,0.99560647,0.06628372,10,331.3,,99.866687312919281*exp(-0.0613835416805103*T + 0.0613835416805103*Td)
+static,rh_from_dewpoint,y,0.05,-,dso_const,0,ok,0.99561703,0.066204,10,329.9,,99.7142750338294*exp(-0.061337580659148698*T + 0.061337580659148698*Td)
+static,stefan_boltzmann,y,0.0,-,dso_const,0,ok,0.99969637,0.01742502,9,247.4,,0.14493503946136618*eps*exp(0.46537732909426418*sqrt(Tk))
+static,stefan_boltzmann,y,0.05,-,dso_const,0,ok,0.99969494,0.01746602,9,240.5,,0.1426246261474251*eps*exp(0.4662925043747293*sqrt(Tk))
+static,tetens_es,y,0.0,-,dso_const,0,ok,1.0,2.61e-06,12,566.4,,exp((19.48079398715481*T + 440.81410851650727)/(T + 243.50892920859778))
+static,tetens_es,y,0.05,-,dso_const,0,ok,0.99942566,0.02396532,10,589.1,,6.0409092718658273*exp(T*(0.0730509875241445 - 0.00026919613868829975*T))
+static,vapour_pressure_deficit,y,0.0,-,dso_const,0,ok,0.94352479,0.23764513,15,330.6,,T*(RH*T*(0.003406802720652292 - 3.567148510699725e-5*RH) + 1.000035671485107)/RH
+static,vapour_pressure_deficit,y,0.05,-,dso_const,0,ok,0.94427033,0.23607133,15,327.2,,T*(RH*T*(0.003392795966605634 - 3.5497720748799838e-5*RH) + 1.0000354977207488)/RH

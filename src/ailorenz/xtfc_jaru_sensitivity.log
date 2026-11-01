@@ -1,0 +1,44 @@
+rows used: 31082  (train 15126, test 15956)
+
+Correlation between estimators:
+                savgol_w7p2  finite_diff  xtfc_48s12n  xtfc_10s10n  xtfc_96s30n_sg
+savgol_w7p2           1.000        0.887        0.903        0.381           0.928
+finite_diff           0.887        1.000        0.835        0.492           0.784
+xtfc_48s12n           0.903        0.835        1.000        0.373           0.823
+xtfc_10s10n           0.381        0.492        0.373        1.000           0.333
+xtfc_96s30n_sg        0.928        0.784        0.823        0.333           1.000
+
+Std of each estimate (K/h): {'savgol_w7p2': 1.035, 'finite_diff': 1.268, 'xtfc_48s12n': 1.217, 'xtfc_10s10n': 2.984, 'xtfc_96s30n_sg': 0.983}
+{'season': 'all', 'estimator': 'savgol_w7p2', 'n_test': 15956, 'harmonic_only': np.float64(0.5411), 'relaxation': np.float64(0.3606), 'saturating': np.float64(0.4441), 'relax+harm': np.float64(0.5814), 'sat+harm': np.float64(0.6096), 'dR2_sat_vs_relax_harm': np.float64(0.0282), 'ci_lo': np.float64(0.0259), 'ci_hi': np.float64(0.0303)}
+{'season': 'all', 'estimator': 'finite_diff', 'n_test': 15956, 'harmonic_only': np.float64(0.4031), 'relaxation': np.float64(0.3115), 'saturating': np.float64(0.3771), 'relax+harm': np.float64(0.4634), 'sat+harm': np.float64(0.4988), 'dR2_sat_vs_relax_harm': np.float64(0.0354), 'ci_lo': np.float64(0.033), 'ci_hi': np.float64(0.0381)}
+{'season': 'all', 'estimator': 'xtfc_48s12n', 'n_test': 15956, 'harmonic_only': np.float64(0.415), 'relaxation': np.float64(0.2925), 'saturating': np.float64(0.3566), 'relax+harm': np.float64(0.4598), 'sat+harm': np.float64(0.4849), 'dR2_sat_vs_relax_harm': np.float64(0.0251), 'ci_lo': np.float64(0.0223), 'ci_hi': np.float64(0.0278)}
+{'season': 'all', 'estimator': 'xtfc_10s10n', 'n_test': 15956, 'harmonic_only': np.float64(0.0962), 'relaxation': np.float64(0.0824), 'saturating': np.float64(0.0969), 'relax+harm': np.float64(0.1159), 'sat+harm': np.float64(0.1245), 'dR2_sat_vs_relax_harm': np.float64(0.0085), 'ci_lo': np.float64(0.006), 'ci_hi': np.float64(0.011)}
+{'season': 'all', 'estimator': 'xtfc_96s30n_sg', 'n_test': 15956, 'harmonic_only': np.float64(0.6265), 'relaxation': np.float64(0.3794), 'saturating': np.float64(0.4362), 'relax+harm': np.float64(0.6488), 'sat+harm': np.float64(0.6537), 'dR2_sat_vs_relax_harm': np.float64(0.005), 'ci_lo': np.float64(0.0034), 'ci_hi': np.float64(0.007)}
+{'season': 'wet', 'estimator': 'savgol_w7p2', 'n_test': 5761, 'harmonic_only': np.float64(0.4454), 'relaxation': np.float64(0.2213), 'saturating': np.float64(0.2847), 'relax+harm': np.float64(0.4898), 'sat+harm': np.float64(0.518), 'dR2_sat_vs_relax_harm': np.float64(0.0282), 'ci_lo': np.float64(0.0214), 'ci_hi': np.float64(0.0349)}
+{'season': 'wet', 'estimator': 'finite_diff', 'n_test': 5761, 'harmonic_only': np.float64(0.2769), 'relaxation': np.float64(0.1941), 'saturating': np.float64(0.2254), 'relax+harm': np.float64(0.3472), 'sat+harm': np.float64(0.3748), 'dR2_sat_vs_relax_harm': np.float64(0.0276), 'ci_lo': np.float64(0.0204), 'ci_hi': np.float64(0.0356)}
+{'season': 'wet', 'estimator': 'xtfc_48s12n', 'n_test': 5761, 'harmonic_only': np.float64(0.2469), 'relaxation': np.float64(0.1421), 'saturating': np.float64(0.1726), 'relax+harm': np.float64(0.2916), 'sat+harm': np.float64(0.3105), 'dR2_sat_vs_relax_harm': np.float64(0.0189), 'ci_lo': np.float64(0.0115), 'ci_hi': np.float64(0.0258)}
+{'season': 'wet', 'estimator': 'xtfc_10s10n', 'n_test': 5761, 'harmonic_only': np.float64(0.0372), 'relaxation': np.float64(0.0355), 'saturating': np.float64(0.0383), 'relax+harm': np.float64(0.0526), 'sat+harm': np.float64(0.0564), 'dR2_sat_vs_relax_harm': np.float64(0.0038), 'ci_lo': np.float64(-0.0001), 'ci_hi': np.float64(0.0079)}
+{'season': 'wet', 'estimator': 'xtfc_96s30n_sg', 'n_test': 5761, 'harmonic_only': np.float64(0.5569), 'relaxation': np.float64(0.2166), 'saturating': np.float64(0.2832), 'relax+harm': np.float64(0.5789), 'sat+harm': np.float64(0.5897), 'dR2_sat_vs_relax_harm': np.float64(0.0108), 'ci_lo': np.float64(0.0058), 'ci_hi': np.float64(0.0151)}
+{'season': 'dry', 'estimator': 'savgol_w7p2', 'n_test': 5853, 'harmonic_only': np.float64(0.6767), 'relaxation': np.float64(0.4896), 'saturating': np.float64(0.5756), 'relax+harm': np.float64(0.6727), 'sat+harm': np.float64(0.6867), 'dR2_sat_vs_relax_harm': np.float64(0.0141), 'ci_lo': np.float64(0.0126), 'ci_hi': np.float64(0.0156)}
+{'season': 'dry', 'estimator': 'finite_diff', 'n_test': 5853, 'harmonic_only': np.float64(0.5671), 'relaxation': np.float64(0.428), 'saturating': np.float64(0.5206), 'relax+harm': np.float64(0.5705), 'sat+harm': np.float64(0.5976), 'dR2_sat_vs_relax_harm': np.float64(0.0271), 'ci_lo': np.float64(0.0252), 'ci_hi': np.float64(0.0293)}
+{'season': 'dry', 'estimator': 'xtfc_48s12n', 'n_test': 5853, 'harmonic_only': np.float64(0.598), 'relaxation': np.float64(0.436), 'saturating': np.float64(0.5199), 'relax+harm': np.float64(0.5986), 'sat+harm': np.float64(0.6146), 'dR2_sat_vs_relax_harm': np.float64(0.0159), 'ci_lo': np.float64(0.0139), 'ci_hi': np.float64(0.0179)}
+{'season': 'dry', 'estimator': 'xtfc_10s10n', 'n_test': 5853, 'harmonic_only': np.float64(0.2592), 'relaxation': np.float64(0.1953), 'saturating': np.float64(0.2441), 'relax+harm': np.float64(0.2601), 'sat+harm': np.float64(0.2722), 'dR2_sat_vs_relax_harm': np.float64(0.0121), 'ci_lo': np.float64(0.0096), 'ci_hi': np.float64(0.0144)}
+{'season': 'dry', 'estimator': 'xtfc_96s30n_sg', 'n_test': 5853, 'harmonic_only': np.float64(0.7558), 'relaxation': np.float64(0.5282), 'saturating': np.float64(0.561), 'relax+harm': np.float64(0.7486), 'sat+harm': np.float64(0.7482), 'dR2_sat_vs_relax_harm': np.float64(-0.0004), 'ci_lo': np.float64(-0.0005), 'ci_hi': np.float64(-0.0002)}
+
+written /mnt/attach/project-files/src/sr_benchmark/results/real_xtfc_sensitivity.csv
+season      estimator  n_test  harmonic_only  relaxation  saturating  relax+harm  sat+harm  dR2_sat_vs_relax_harm   ci_lo   ci_hi
+   all    savgol_w7p2   15956         0.5411      0.3606      0.4441      0.5814    0.6096                 0.0282  0.0259  0.0303
+   all    finite_diff   15956         0.4031      0.3115      0.3771      0.4634    0.4988                 0.0354  0.0330  0.0381
+   all    xtfc_48s12n   15956         0.4150      0.2925      0.3566      0.4598    0.4849                 0.0251  0.0223  0.0278
+   all    xtfc_10s10n   15956         0.0962      0.0824      0.0969      0.1159    0.1245                 0.0085  0.0060  0.0110
+   all xtfc_96s30n_sg   15956         0.6265      0.3794      0.4362      0.6488    0.6537                 0.0050  0.0034  0.0070
+   wet    savgol_w7p2    5761         0.4454      0.2213      0.2847      0.4898    0.5180                 0.0282  0.0214  0.0349
+   wet    finite_diff    5761         0.2769      0.1941      0.2254      0.3472    0.3748                 0.0276  0.0204  0.0356
+   wet    xtfc_48s12n    5761         0.2469      0.1421      0.1726      0.2916    0.3105                 0.0189  0.0115  0.0258
+   wet    xtfc_10s10n    5761         0.0372      0.0355      0.0383      0.0526    0.0564                 0.0038 -0.0001  0.0079
+   wet xtfc_96s30n_sg    5761         0.5569      0.2166      0.2832      0.5789    0.5897                 0.0108  0.0058  0.0151
+   dry    savgol_w7p2    5853         0.6767      0.4896      0.5756      0.6727    0.6867                 0.0141  0.0126  0.0156
+   dry    finite_diff    5853         0.5671      0.4280      0.5206      0.5705    0.5976                 0.0271  0.0252  0.0293
+   dry    xtfc_48s12n    5853         0.5980      0.4360      0.5199      0.5986    0.6146                 0.0159  0.0139  0.0179
+   dry    xtfc_10s10n    5853         0.2592      0.1953      0.2441      0.2601    0.2722                 0.0121  0.0096  0.0144
+   dry xtfc_96s30n_sg    5853         0.7558      0.5282      0.5610      0.7486    0.7482                -0.0004 -0.0005 -0.0002

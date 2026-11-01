@@ -1,0 +1,22 @@
+{
+  "title": "When does symbolic regression add to tower micrometeorology? Code and results",
+  "description": "<p>Code, result tables and figure scripts for the article <em>When does symbolic regression add to tower micrometeorology? Eight equation-discovery methods tested on known laws and on an Amazonian flux-tower record</em> (submitted to Environmental Modelling &amp; Software). Eight equation-discovery engines (PySR, Operon, gplearn, SINDy, DSO, PhySO, AI Feynman, KAN) and the AI-Lorenz pipeline are tested on ten micrometeorological laws, two dynamical systems and an audited flux-tower record from Rebio Jaru, Rondonia, Brazil. Every table and figure can be rebuilt from the saved results without rerunning the engines. Raw data are not included; see the README for sources.</p>",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Silva, Ian",
+      "orcid": "0000-0001-8558-5156"
+    }
+  ],
+  "keywords": [
+    "symbolic regression",
+    "equation discovery",
+    "eddy covariance",
+    "benchmark",
+    "model evaluation",
+    "Amazon",
+    "data quality"
+  ]
+}

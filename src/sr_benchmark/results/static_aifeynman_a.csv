@@ -1,0 +1,6 @@
+suite,task,target,noise,estimator,method,seed,status,r2_extrap,nrmse_extrap,complexity,seconds,deriv_rel_err,expression
+static,tetens_es,y,0.0,-,ai_feynman,0,ok,0.9999898181811204,0.0031908962502013856,16,900.2,,13.367562248079*(exp(sqrt(T + 1) - 1) - 1)/T
+static,stefan_boltzmann,y,0.0,-,ai_feynman,0,ok,0.9999999995992176,2.0019551467724915e-05,11,900.3,,-2.8352e-8*eps/(cos(Tk**(-2)) - 1)
+static,monin_obukhov_length,y,0.0,-,ai_feynman,0,ok,0.998973436454478,0.03204003036081524,8,900.3,,-74.534490937935*ustar**3/wth
+static,log_wind_profile,y,0.0,-,ai_feynman,0,ok,0.9996974059682008,0.017395230145049536,13,900.4,,7.425002903961*ustar*sqrt(log(z + 1) - pi)
+static,bulk_sensible_heat,y,0.0,-,ai_feynman,0,ok,0.9984437729964004,0.039449043126539865,8,900.5,,21.154272953472*dT*u/log(z)

@@ -1,0 +1,261 @@
+diff --git a/dso/dso/checkpoint.py b/dso/dso/checkpoint.py
+index 23c20df..97fe83a 100644
+--- a/dso/dso/checkpoint.py
++++ b/dso/dso/checkpoint.py
+@@ -1,7 +1,8 @@
+ import os
+ from datetime import datetime, timedelta
+ 
+-import tensorflow as tf
++import tensorflow.compat.v1 as tf
++tf.disable_v2_behavior()
+ import numpy as np
+ import pandas as pd
+ 
+diff --git a/dso/dso/core.py b/dso/dso/core.py
+index 8cd0aee..81873cf 100644
+--- a/dso/dso/core.py
++++ b/dso/dso/core.py
+@@ -12,7 +12,8 @@ from time import time
+ from datetime import datetime
+ 
+ import numpy as np
+-import tensorflow as tf
++import tensorflow.compat.v1 as tf
++tf.disable_v2_behavior()
+ import commentjson as json
+ 
+ from dso.task import set_task
+diff --git a/dso/dso/language_model/language_model_prior.py b/dso/dso/language_model/language_model_prior.py
+index 39880b8..2e02300 100644
+--- a/dso/dso/language_model/language_model_prior.py
++++ b/dso/dso/language_model/language_model_prior.py
+@@ -3,7 +3,7 @@
+ import pickle
+ 
+ import numpy as np
+-import tensorflow as tf
++import tensorflow.compat.v1 as tf
+ 
+ from .model.model_dyn_rnn import LanguageModel
+ 
+diff --git a/dso/dso/language_model/model/model_dyn_rnn.py b/dso/dso/language_model/model/model_dyn_rnn.py
+index 8a5d936..8e2bf0c 100644
+--- a/dso/dso/language_model/model/model_dyn_rnn.py
++++ b/dso/dso/language_model/model/model_dyn_rnn.py
+@@ -1,7 +1,7 @@
+ """Model architecture of default (saved) LanguageModel"""
+ 
+-import tensorflow as tf
+-from tensorflow.contrib import rnn
++import tensorflow.compat.v1 as tf
++rnn = None  # language-model prior unused in this port
+ 
+ class LanguageModel(object):
+     def __init__(self, vocabulary_size, embedding_size, num_layers, num_hidden, mode='train'):
+diff --git a/dso/dso/memory.py b/dso/dso/memory.py
+index 6004e5a..933298b 100644
+--- a/dso/dso/memory.py
++++ b/dso/dso/memory.py
+@@ -360,7 +360,7 @@ class ProgramQueueMixin():
+         priors = np.concatenate(priors, axis=0)
+         lengths = np.array([s.lengths for s in samples], dtype=np.int32)
+         rewards = np.array([s.rewards for s in samples], dtype=np.float32)
+-        on_policy = np.array([s.on_policy for s in samples], dtype=np.bool)
++        on_policy = np.array([s.on_policy for s in samples], dtype=bool)
+         batch = Batch(actions=actions, obs=obs, priors=priors,
+                       lengths=lengths, rewards=rewards, on_policy=on_policy)
+         return batch
+diff --git a/dso/dso/policy/policy.py b/dso/dso/policy/policy.py
+index 3d226ba..e4cf8bc 100644
+--- a/dso/dso/policy/policy.py
++++ b/dso/dso/policy/policy.py
+@@ -2,7 +2,8 @@ from abc import ABC, abstractmethod
+ 
+ from typing import Tuple, TypeVar
+ 
+-import tensorflow as tf
++import tensorflow.compat.v1 as tf
++tf.disable_v2_behavior()
+ import dso
+ from dso.prior import LengthConstraint
+ from dso.program import Program
+diff --git a/dso/dso/policy/rnn_policy.py b/dso/dso/policy/rnn_policy.py
+index f809e21..09de60d 100644
+--- a/dso/dso/policy/rnn_policy.py
++++ b/dso/dso/policy/rnn_policy.py
+@@ -1,5 +1,6 @@
+ """Controller used to generate distribution over hierarchical, variable-length objects."""
+-import tensorflow as tf
++import tensorflow.compat.v1 as tf
++tf.disable_v2_behavior()
+ import numpy as np
+ 
+ from dso.program import Program
+@@ -9,7 +10,7 @@ from dso.memory import Batch
+ from dso.policy import Policy
+ from dso.utils import make_batch_ph
+ 
+-class LinearWrapper(tf.contrib.rnn.LayerRNNCell):
++class LinearWrapper(tf.nn.rnn_cell.RNNCell):
+     """RNNCell wrapper that adds a linear layer to the output.
+ 
+     See: https://github.com/tensorflow/models/blob/master/research/brain_coder/single_task/pg_agent.py
+@@ -129,8 +130,8 @@ class RNNPolicy(Policy):
+                 if name == "zeros":
+                     return tf.zeros_initializer()
+                 if name == "var_scale":
+-                    return tf.contrib.layers.variance_scaling_initializer(
+-                            factor=0.5, mode='FAN_AVG', uniform=True, seed=0)
++                    return tf.variance_scaling_initializer(
++                            scale=0.5, mode='fan_avg', distribution='uniform', seed=0)
+                 raise ValueError("Did not recognize initializer '{}'".format(name))
+ 
+             def make_cell(name, num_units, initializer):
+@@ -144,7 +145,7 @@ class RNNPolicy(Policy):
+             if isinstance(num_units, int):
+                 num_units = [num_units] * num_layers
+             initializer = make_initializer(initializer)
+-            cell = tf.contrib.rnn.MultiRNNCell(
++            cell = tf.nn.rnn_cell.MultiRNNCell(
+                     [make_cell(cell, n, initializer=initializer) for n in num_units])
+             cell = LinearWrapper(cell=cell, output_size=n_choices)
+ 
+diff --git a/dso/dso/policy_optimizer/pg_policy_optimizer.py b/dso/dso/policy_optimizer/pg_policy_optimizer.py
+index 67490ef..8e3a032 100644
+--- a/dso/dso/policy_optimizer/pg_policy_optimizer.py
++++ b/dso/dso/policy_optimizer/pg_policy_optimizer.py
+@@ -1,5 +1,6 @@
+ 
+-import tensorflow as tf
++import tensorflow.compat.v1 as tf
++tf.disable_v2_behavior()
+ from dso.policy_optimizer import PolicyOptimizer
+ from dso.policy import Policy
+ 
+diff --git a/dso/dso/policy_optimizer/policy_optimizer.py b/dso/dso/policy_optimizer/policy_optimizer.py
+index 906a385..8d7d4dc 100644
+--- a/dso/dso/policy_optimizer/policy_optimizer.py
++++ b/dso/dso/policy_optimizer/policy_optimizer.py
+@@ -1,6 +1,7 @@
+ from abc import ABC, abstractmethod
+ 
+-import tensorflow as tf
++import tensorflow.compat.v1 as tf
++tf.disable_v2_behavior()
+ import numpy as np
+ 
+ from dso.program import Program
+diff --git a/dso/dso/policy_optimizer/ppo_policy_optimizer.py b/dso/dso/policy_optimizer/ppo_policy_optimizer.py
+index 7bdf0d8..c4c29ee 100644
+--- a/dso/dso/policy_optimizer/ppo_policy_optimizer.py
++++ b/dso/dso/policy_optimizer/ppo_policy_optimizer.py
+@@ -1,5 +1,6 @@
+ 
+-import tensorflow as tf
++import tensorflow.compat.v1 as tf
++tf.disable_v2_behavior()
+ import numpy as np
+ from dso.policy_optimizer import PolicyOptimizer
+ from dso.policy import Policy
+diff --git a/dso/dso/policy_optimizer/pqt_policy_optimizer.py b/dso/dso/policy_optimizer/pqt_policy_optimizer.py
+index a17c6e9..f0fb022 100644
+--- a/dso/dso/policy_optimizer/pqt_policy_optimizer.py
++++ b/dso/dso/policy_optimizer/pqt_policy_optimizer.py
+@@ -1,5 +1,6 @@
+ 
+-import tensorflow as tf
++import tensorflow.compat.v1 as tf
++tf.disable_v2_behavior()
+ from dso.policy_optimizer import PolicyOptimizer
+ from dso.policy import Policy
+ from dso.utils import make_batch_ph
+diff --git a/dso/dso/prior.py b/dso/dso/prior.py
+index 2276bc1..6e26567 100644
+--- a/dso/dso/prior.py
++++ b/dso/dso/prior.py
+@@ -957,7 +957,7 @@ class SoftLengthPrior(Prior):
+         self.loc = loc
+         self.scale = scale
+ 
+-        self.terminal_mask = np.zeros((self.L,), dtype=np.bool)
++        self.terminal_mask = np.zeros((self.L,), dtype=bool)
+         self.terminal_mask[self.library.terminal_tokens] = True
+ 
+         self.nonterminal_mask = ~self.terminal_mask
+diff --git a/dso/dso/scripts/search_space.py b/dso/dso/scripts/search_space.py
+index 7f3a144..2e6965e 100644
+--- a/dso/dso/scripts/search_space.py
++++ b/dso/dso/scripts/search_space.py
+@@ -7,7 +7,7 @@ configuration B.
+ 
+ from copy import deepcopy
+ 
+-import tensorflow as tf
++import tensorflow.compat.v1 as tf
+ import numpy as np
+ import click
+ 
+diff --git a/dso/dso/tf_state_manager.py b/dso/dso/tf_state_manager.py
+index ff8bb27..5b48aaa 100644
+--- a/dso/dso/tf_state_manager.py
++++ b/dso/dso/tf_state_manager.py
+@@ -1,6 +1,7 @@
+ from abc import ABC, abstractmethod
+ 
+-import tensorflow as tf
++import tensorflow.compat.v1 as tf
++tf.disable_v2_behavior()
+ 
+ from dso.program import Program
+ 
+diff --git a/dso/dso/train.py b/dso/dso/train.py
+index ceb2378..9734b8d 100644
+--- a/dso/dso/train.py
++++ b/dso/dso/train.py
+@@ -5,7 +5,8 @@ import json
+ import time
+ from itertools import compress
+ 
+-import tensorflow as tf
++import tensorflow.compat.v1 as tf
++tf.disable_v2_behavior()
+ import numpy as np
+ 
+ from dso.program import Program, from_tokens
+diff --git a/dso/dso/train_stats.py b/dso/dso/train_stats.py
+index 5656c40..630b274 100644
+--- a/dso/dso/train_stats.py
++++ b/dso/dso/train_stats.py
+@@ -1,7 +1,8 @@
+ """Performs computations and file manipulations for train statistics logging purposes"""
+ import os
+ import numpy as np
+-import tensorflow as tf
++import tensorflow.compat.v1 as tf
++tf.disable_v2_behavior()
+ from datetime import datetime
+ import pandas as pd
+ from dso.program import Program, from_tokens
+@@ -407,7 +408,7 @@ class StatsLogger():
+                 token_counter[token.name] += 1
+         stats = np.array([[
+             token_counter[token] for token in token_counter.keys()
+-        ]], dtype=np.int)
++        ]], dtype=int)
+         np.savetxt(self.buffer_token_stats, stats, fmt='%i', delimiter=',')
+ 
+     def flush_buffers(self):
+diff --git a/dso/dso/utils.py b/dso/dso/utils.py
+index 3a3aaac..f54b766 100644
+--- a/dso/dso/utils.py
++++ b/dso/dso/utils.py
+@@ -314,7 +314,7 @@ def make_batch_ph(name : str, n_choices : int):
+     """
+ 
+     # Lazy import
+-    import tensorflow as tf
++    import tensorflow.compat.v1 as tf
+     from dso.memory import Batch
+     from dso.program import Program
+ 

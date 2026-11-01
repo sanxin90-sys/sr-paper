@@ -1,0 +1,10 @@
+# Enough to rebuild every table and figure from the saved results,
+# and to run the data audit (audit_jaru.py needs openpyxl).
+numpy>=2.0
+scipy>=1.13
+pandas>=2.2
+sympy==1.14.0
+scikit-learn>=1.5
+matplotlib>=3.9
+tabulate>=0.9
+openpyxl>=3.1

@@ -1,0 +1,73 @@
+1. reproduction sindy_poly2 seed0 thr0.1: R2_test = 0.3743 | terms = 10
+    (-1.71528) + (0.00351771)*Rn + (0.18712)*T22 + (-0.153237)*WS + (-3.47895e-06)*Rn**2 + (4.19945e-05)*Rn*T22 + (-0.00024868)*Rn*WS + (-0.00491133)*T22**2 + (0.00734016)*T22*WS + (-0.0177809)*WS**2
+/usr/local/lib/python3.13/dist-packages/pysindy/optimizers/stlsq.py:224: UserWarning: Sparsity parameter is too big (50.50628612006353) and eliminated all coefficients
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/pysindy/optimizers/stlsq.py:224: UserWarning: Sparsity parameter is too big (101.01257224012706) and eliminated all coefficients
+  warnings.warn(
+
+2. threshold sweep (dT/dt, all seasons)
+  threshold  n_terms       r2_test
+      0.00       10  3.742639e-01
+      0.01       10  3.742639e-01
+      0.02       10  3.742639e-01
+      0.05       10  3.742639e-01
+      0.10       10  3.742639e-01
+      0.20        6  3.560758e-01
+      0.30        6  3.560758e-01
+      0.50        5  3.509768e-01
+      1.00        0 -3.806286e-08
+      2.00        0 -3.806286e-08
+
+3. 20 seeds: R2_test 0.377 +- 0.012
+   term  freq  sign_agreement
+     1  1.00        1.000000
+    Rn  1.00        1.000000
+   T22  1.00        1.000000
+ Rn**2  1.00        1.000000
+T22**2  1.00        1.000000
+T22*WS  0.80        0.875000
+Rn*T22  0.75        1.000000
+    WS  0.60        0.833333
+ Rn*WS  0.40        1.000000
+ WS**2  0.40        1.000000
+
+   all sindy terms: ['1', 'Rn', 'T22', 'WS', 'Rn**2', 'Rn*T22', 'Rn*WS', 'T22**2', 'T22*WS', 'WS**2']
+   all sindy+harm terms: ['1', 'Rn', 'T22', 'WS', 'Rn**2', 'Rn*T22', 'T22**2', 'T22*WS', 'WS**2', 'h1', 'h3']
+
+   wet sindy terms: ['1', 'Rn', 'T22', 'WS', 'Rn**2', 'Rn*T22', 'T22**2', 'T22*WS', 'WS**2']
+   wet sindy+harm terms: ['1', 'Rn', 'T22', 'WS', 'Rn**2', 'Rn*T22', 'T22**2', 'T22*WS', 'WS**2', 'h1', 'h3']
+
+   dry sindy terms: ['1', 'Rn', 'T22', 'WS', 'Rn**2', 'Rn*T22', 'Rn*WS', 'T22**2', 'T22*WS']
+   dry sindy+harm terms: ['1', 'Rn', 'T22', 'Rn**2', 'Rn*T22', 'Rn*WS', 'T22**2', 'h1', 'h2', 'h3', 'h4', 'h5']
+
+4-6. baselines/seasons/bootstrap
+ season           model  r2_test  dR2_vs_relax+harm_lo  dR2_vs_relax+harm_hi  n_terms
+   all      relaxation   0.2846               -0.1877               -0.1771        3
+   all       harmonics   0.4231               -0.0487               -0.0393        7
+   all relaxation+harm   0.4670                0.0000                0.0000        9
+   all           sindy   0.3743               -0.0989               -0.0865       10
+   all      sindy+harm   0.5075                0.0368                0.0444       11
+   wet      relaxation   0.1744               -0.2492               -0.2181        3
+   wet       harmonics   0.3669               -0.0502               -0.0341        7
+   wet relaxation+harm   0.4090                0.0000                0.0000        9
+   wet           sindy   0.2664               -0.1601               -0.1219        9
+   wet      sindy+harm   0.4507                0.0335                0.0512       11
+   dry      relaxation   0.4121               -0.1727               -0.1612        3
+   dry       harmonics   0.5708               -0.0119               -0.0043        7
+   dry relaxation+harm   0.5787                0.0000                0.0000        9
+   dry           sindy   0.4815               -0.1051               -0.0894        9
+   dry      sindy+harm   0.5657               -0.0227               -0.0038       12
+
+7. SG window sensitivity (all seasons, R2_test)
+  sg_window  relaxation  harmonics  relaxation+harm  sindy  sindy+harm
+         5      0.2495     0.3751           0.4271 0.3520      0.4780
+         7      0.2846     0.4231           0.4670 0.3743      0.5075
+        11      0.3224     0.5236           0.5563 0.4105      0.5879
+        15      0.3689     0.6096           0.6349 0.4461      0.6506
+
+Rn~PAR sweep
+  threshold                                                                                   terms  r2_test  frac_night_Rn<0
+      0.00 {'1': -21.558000233054585, 'PAR': 2.1605196895482104, 'PAR**2': -0.0021564524956518664} 0.909953              1.0
+      0.01 {'1': -21.558000233054585, 'PAR': 2.1605196895482104, 'PAR**2': -0.0021564524956518664} 0.909953              1.0
+      0.05 {'1': -21.558000233054585, 'PAR': 2.1605196895482104, 'PAR**2': -0.0021564524956518664} 0.909953              1.0
+      0.10                           {'PAR': 1.9401361242072288, 'PAR**2': -0.0017071643671870253} 0.901090              0.0

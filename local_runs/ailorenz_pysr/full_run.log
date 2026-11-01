@@ -1,0 +1,51 @@
+﻿e1_n0.01_g0.0_estimated_graybox_auto seed 0: (Rn**2*0.0020835698 - Rn)*(-0.0012157543)
+e1_n0.01_g0.0_estimated_sg seed 0: (-0.00218455057315898*Rn**2 + Rn)*0.0012473001 + 253191250.0/exp(T)
+e1_n0.01_g0.0_exact_blackbox seed 0: Rn**2*(-3.0155516e-6)
+e1_n0.01_g0.0_exact_graybox_auto seed 0: Rn**2*(-2.9947219e-6)
+e1_n0.01_g0.0_exact_sg seed 0: Rn*(Rn*(-2.6380799e-6) - 0.0003626025) - (0.39413127 + T*(-0.016900593))
+e1_n0.01_g0.25_estimated_blackbox seed 0: (Rn - 1*479.54562)*Rn*(-2.6406278e-6)
+e1_n0.01_g0.25_estimated_graybox_auto seed 0: Rn*(0.0012860472 - 2.6622415e-6*Rn)
+e1_n0.01_g0.25_estimated_sg seed 0: Rn*(Rn*(-2.5183026e-6) - 1*(-0.0011453686))
+e1_n0.01_g0.25_exact_blackbox seed 0: Rn**2*(-3.00344e-6)
+e1_n0.01_g0.25_exact_graybox_auto seed 0: Rn**2*(-2.989728e-6)
+e1_n0.01_g0.25_exact_sg seed 0: Rn*(Rn*(-2.704811e-6) - 0.00031868124) - (-0.0135352425)*T - 1*0.31282434
+e1_n0.05_g0.0_estimated_blackbox seed 0: Rn*(0.0011375545 - 2.3687837e-6*Rn)
+e1_n0.05_g0.0_estimated_graybox_auto seed 0: Rn*(0.0011529665 + Rn*(-2.3815755e-6))
+e1_n0.05_g0.0_estimated_sg seed 0: (454.37488 - Rn)*Rn*2.3223138e-6
+e1_n0.05_g0.0_exact_blackbox seed 0: Rn**2*(-3.0136168e-6)
+e1_n0.05_g0.0_exact_graybox_auto seed 0: Rn**2*(-2.9848645e-6)
+e1_n0.05_g0.0_exact_sg seed 0: Rn**2*(-3.119609e-6)
+e1_n0.05_g0.25_estimated_blackbox seed 0: Rn*(0.0012468518 + Rn*(-2.5571123e-6))
+e1_n0.05_g0.25_estimated_graybox_auto seed 0: Rn*(0.0011864231 + Rn*(-2.4130375e-6))
+e1_n0.05_g0.25_estimated_sg seed 0: Rn*(0.0010842459 + Rn*(-2.3660796e-6))
+e1_n0.05_g0.25_exact_blackbox seed 0: Rn*(-0.0014073284)
+e1_n0.05_g0.25_exact_graybox_auto seed 0: Rn*(-0.0013933494)
+e1_n0.05_g0.25_exact_sg seed 0: Rn**2*(-3.1156715e-6)
+e1_n0.0_g0.0_estimated_blackbox seed 0: Rn*(0.0015475035 - 2.9676141e-6*Rn) + T*(-0.022193098) + 0.5414369
+e1_n0.0_g0.0_estimated_graybox_auto seed 0: 320175420.0/exp(T) + (477.22763 - Rn)*0.001997445/(T/((Rn/T)))
+e1_n0.0_g0.0_estimated_sg seed 0: Rn*(0.0012781565 + Rn*(-2.8072866e-6)) + 272295870.0/exp(T)
+e1_n0.0_g0.0_exact_blackbox seed 0: Rn**2*(-3.0124493e-6)
+e1_n0.0_g0.0_exact_graybox_auto seed 0: Rn**2*(-3.0123488e-6)
+e1_n0.0_g0.0_exact_sg seed 0: -Rn*(Rn*2.755485e-6 - 1*(-0.0003039905)) - (-0.014086957)*T - 0.32433856
+e1_n0.0_g0.25_estimated_blackbox seed 0: T*(-0.021208696) + 0.51968294 + (-7.5392556e-5 + 0.03918944/Rn)/((25.55415126641/Rn**2))
+e1_n0.0_g0.25_estimated_graybox_auto seed 0: -2.9579264e-6*Rn**2 + Rn*0.0015346382 - 0.529561 + 12.844603/T
+e1_n0.0_g0.25_estimated_sg seed 0: (0.0021978246610947*Rn**2 - Rn)*(-0.00116124)
+e1_n0.0_g0.25_exact_blackbox seed 0: Rn**2*(-3.0050253e-6)
+e1_n0.0_g0.25_exact_graybox_auto seed 0: Rn**2*(-3.004979e-6)
+e1_n0.0_g0.25_exact_sg seed 0: 0.016251078*Rn + 0.016251078*T + (-2.7717842e-6*Rn - 0.016375195)*(Rn + log(Rn**2)) - 0.24651963
+e2_blackbox seed 0: (hc + exp(hs))*Rn*0.002396588
+e2_blackbox seed 1: hs*(0.25123963 - hc)**2
+e2_blackbox seed 2: hs*Rn*0.0022969279
+e2_graybox_auto seed 0: Rn*(hc + exp(hs))*0.0024184885
+e2_graybox_auto seed 1: Rn*(hs**2 + hs)*0.0025513046
+e2_graybox_auto seed 2: (hs**2 + hs)*Rn*0.0025769498
+e2_sg seed 0: hs*(hc - 0.23874158)**2
+e2_sg seed 1: hs*0.0021628153*Rn
+e2_sg seed 2: hs*0.0020677203*Rn
+e3_lorenz_s0.0_blackbox seed 0: x*(27.999998 - z)
+e3_lorenz_s0.0_graybox_auto seed 0: x*(28.0 - z)
+e3_lorenz_s0.1_blackbox seed 0: (-69.80932*x + 8.351295*y)*(0.167780643874301*sqrt(z) - 0.88397956)
+e3_lorenz_s0.1_graybox_auto seed 0: (7.71007254895848 - 1.46289591979749*sqrt(z))*(8.081427*x - y)
+e3_lorenz_s0.5_blackbox seed 0: x*(1.1099356 + z*(-0.0049044113))*(27.56831 - z)
+e3_lorenz_s0.5_graybox_auto seed 0: x*(27.95309 - z)
+written C:\Users\ianba\Downloads\ailorenz_pysr\pysr_outputs\ailorenz_pysr.csv
