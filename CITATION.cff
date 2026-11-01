@@ -4,6 +4,7 @@ title: "When does symbolic regression add to tower micrometeorology? Code and re
 type: software
 authors:
   - name: "sanxin90-sys"
+    orcid: "https://orcid.org/0000-0001-8558-5156"
 license: MIT
 repository-code: "https://github.com/sanxin90-sys/sr-paper"
 abstract: >-
