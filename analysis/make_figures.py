@@ -155,9 +155,9 @@ boxes = [
     (0.05, "Synthetic benchmark", "10 micrometeorological laws\n+ relaxation and Lorenz-63\n8 engines, 3 noise levels",
      "Best engines recover 7 of 10 laws\n(Operon, PySR, AI Feynman)", BLUE),
     (1.05, "Audited flux-tower record", "Rebio Jaru, Amazon\nclassical relations re-fitted\nblock bootstrap, rule fixed in advance",
-     "Rn ~ PAR: no engine beats the line\nRH: gains in some years only,\nno physical form", ORANGE),
+     "Rn ~ PAR: no better valid form\nthan a re-fitted line\nRH: gains in some years only,\nno physical form", ORANGE),
     (2.05, "What decided the outcome", "KAN readout, AI Feynman run length,\nDSO constant token,\nsensor audit, fair baseline",
-     "Protocol changed scores as much\nas the choice of engine", "#1baf7a"),
+     "Protocol choices changed\nengine rankings and\nreal-data verdicts", "#1baf7a"),
 ]
 for x, title, body, result, col in boxes:
     ax.add_patch(plt.Rectangle((x, 0.08), 0.9, 0.84, fc="white", ec=col, lw=2))
