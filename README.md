@@ -91,7 +91,7 @@ Table and figure numbers refer to the submitted manuscript.
 | Table S3 (dynamic benchmark, derivative estimators) | same, `--suite dynamic`; `sr_benchmark/derivatives.py` | `results/dynamic*.csv`, `results_seeds/` |
 | Fig. 2, Table S4 (protocol variants) | `kan_eval.py`, `aifeynman_fair/run_aif_fair.py`, `sr_benchmark/dso_check.py`, `local_runs/physo_pilot/physo_units.py`, `pysr_pareto_seeds.py` | `kan_static.csv`, `aifeynman_fair/*.csv`, `static_dso.csv`, `local_runs/physo_pilot/synthetic_units_pilot.csv`, `static_pysr_b45_seed0.csv`, `pysr_pareto_seeds.csv` |
 | Table S2 (data audit DQ-001 to DQ-003) | `audit_jaru.py` | `audit_jaru.log`, `rn_par_by_year.log` |
-| Table 3, Fig. 3 (audited Rn and RH tests) | `clean_rerun_rn_rh.py`, `clean_rerun_extra.py`, `pysr_clean_rn_rh.py`, `rh_fair_baseline.py` | `clean_rerun_*.csv`, `rh_fair_baseline.csv` |
+| Table 3, Fig. 3 (audited Rn and RH tests) | `clean_rerun_rn_rh.py`, `clean_rerun_extra.py`, `pysr_clean_rn_rh.py`, `rh_fair_baseline.py` | `clean_rerun_*.csv`, `pysr_clean_rn_rh_*`, `rh_fair_baseline.csv` |
 | Section 3.3, "the audit as part of the result" (pre-audit runs) | `real_discovery.py`, `notebooks/jaru_sr_pipeline.ipynb`, `kan_eval.py`, `local_runs/physo_pilot/physo_jaru.py` | `real_discovery_*.csv`, `kan_real*.csv`, `local_runs/physo_pilot/jaru_physo.csv` |
 | Section 3.4, tendency: diurnal baseline, weak form, filter windows | `sindy_jaru_check.py`, `sindy_weak_loyo.py`, `dtdt_robustness.py`, `dtdt_null_sg.py` | `sindy_jaru_*`, `sindy_weak_loyo*`, `dtdt_robustness*.csv`, `dtdt_null_sg.csv` |
 | Section 3.4, AI Feynman separability | `aif_separability.py` | `aif_separability_*` |
@@ -143,7 +143,7 @@ The synthetic benchmark needs no external data. It regenerates its inputs from f
 
 Please read these before you compare numbers.
 
-- **PySR on the audited tower data.** This run was made on a laptop. Its output file (`pysr.csv`) is not in the repository yet, so the PySR column of Table 3 cannot be recounted here. \[Authors: add `src/sr_benchmark/results/pysr_clean.csv`.\]
+- **PySR on the audited tower data** was run on a laptop (`pysr_clean_rn_rh.py`). Its outputs are in `results/pysr_clean_rn_rh_*` and are included in `check_realdata.py` and Fig. 3. For humidity they are compared with baseline T0, the Tetens relation used in Table 3.
 - **PhySO on tower data** (`local_runs/physo_pilot/physo_jaru.py`) read a prepared array file (`jaru.npz`) that is not included. These runs used the pre-audit window and are not reported as evidence in the paper.
 - **Seeds and budgets differ between engines.** AI Feynman, DSO and PhySO were run with one seed. PySR ran on an Intel i7-9750H laptop and the other engines in a 4-core Linux container, so timings compare within a machine only.
 - **KAN v2 and PhySO** have options in `clean_rerun_extra.py` but were not run on the audited splits.
