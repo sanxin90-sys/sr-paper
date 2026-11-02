@@ -95,13 +95,23 @@ save(fig, "fig2_protocol")
 d = pd.read_csv(R / "clean_rerun_rn_rh.csv")
 for extra in sorted(R.glob("clean_rerun_extra_*.csv")):
     d = pd.concat([d, pd.read_csv(extra)], ignore_index=True)
+pysr_file = R / "pysr_clean_rn_rh_pysr.csv"  # PySR run on a laptop; RH compared with baseline T0
+if pysr_file.exists():
+    p = pd.read_csv(pysr_file)
+    p = p[p.method == "pysr"].copy()
+    rh = p.task.str.startswith("RH")
+    p.loc[~rh, "d_rmse_lo"] = p.loc[~rh, "d_rmse_vs_classical_lo"]
+    p.loc[~rh, "d_rmse_hi"] = p.loc[~rh, "d_rmse_vs_classical_hi"]
+    p.loc[rh, "d_rmse_lo"] = p.loc[rh, "d_rmse_vs_T0_lo"]
+    p.loc[rh, "d_rmse_hi"] = p.loc[rh, "d_rmse_vs_T0_hi"]
+    d = pd.concat([d, p[["task", "split", "method", "seed", "rmse", "d_rmse_lo", "d_rmse_hi"]]], ignore_index=True)
 d = d[d.method != "classical"].copy()
 split_lab = {"A_2006_H1toH2": "A: 2006", "B_2008_H1toH2": "B: 2008", "C_2006to2008_acrossstep": "C: across step",
              "train2006_test2005": "2005", "train2006_test2008": "2008", "train2006_test2009": "2009",
              "train2006_test2010": "2010"}
-meth = ["sindy_poly2", "sindy_ext", "operon", "gplearn", "kan_v2", "physo"]
-mcol = {"sindy_poly2": "#1baf7a", "sindy_ext": "#008300", "operon": BLUE, "gplearn": ORANGE, "kan_v2": "#6250d6", "physo": "#e87ba4"}
-mlab = {"sindy_poly2": "SINDy quadratic", "sindy_ext": "SINDy extended", "operon": "Operon", "gplearn": "gplearn",
+meth = ["sindy_poly2", "sindy_ext", "operon", "gplearn", "pysr", "kan_v2", "physo"]
+mcol = {"sindy_poly2": "#1baf7a", "sindy_ext": "#008300", "operon": BLUE, "gplearn": ORANGE, "pysr": "#6250d6", "kan_v2": "#8a6d3b", "physo": "#e87ba4"}
+mlab = {"sindy_poly2": "SINDy quadratic", "sindy_ext": "SINDy extended", "operon": "Operon", "gplearn": "gplearn", "pysr": "PySR",
         "kan_v2": "KAN v2", "physo": "PhySO"}
 fig, axes = plt.subplots(1, 2, figsize=(7.2, 3.0))
 for ax, task, lim, unit in ((axes[0], "Rn~PAR", 12, "W m$^{-2}$"), (axes[1], "RH~T,Tmin", 4, "%")):

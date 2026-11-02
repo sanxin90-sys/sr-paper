@@ -11,7 +11,17 @@ import sys
 from collections import defaultdict
 from pathlib import Path
 
-FILES = ["clean_rerun_rn_rh.csv", "clean_rerun_extra_gplearn.csv", "clean_rerun_extra_sindy_ext.csv"]
+PYSR_FILE = "pysr_clean_rn_rh_pysr.csv"  # PySR run on a laptop (pysr_clean_rn_rh.py)
+FILES = ["clean_rerun_rn_rh.csv", "clean_rerun_extra_gplearn.csv", "clean_rerun_extra_sindy_ext.csv", PYSR_FILE]
+
+
+def pysr_row(r: dict) -> dict | None:
+    """Map the PySR file to the common columns; RH is compared with baseline T0 (Tetens, T_d = a*T_min + b)."""
+    if r["method"] != "pysr":
+        return None
+    ref = "T0" if r["task"].startswith("RH") else "classical"
+    return dict(r, d_rmse_lo=r[f"d_rmse_vs_{ref}_lo"], d_rmse_hi=r[f"d_rmse_vs_{ref}_hi"],
+                rmse_classical_same_seed=r[f"rmse_{ref}_same_seed"])
 
 
 def main(res_dir: Path) -> None:
@@ -23,6 +33,10 @@ def main(res_dir: Path) -> None:
             print(f"missing: {path}")
             continue
         for r in csv.DictReader(open(path)):
+            if name == PYSR_FILE:
+                r = pysr_row(r)
+                if r is None:
+                    continue
             key = (r["task"], r["split"])
             if r["method"] == "classical":
                 if r["seed"] == "0":
