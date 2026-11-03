@@ -9,18 +9,22 @@ src = src[:src.index('rows, exprs, preds')]  # reuse load(), FEAT, SITES only
 ns = {}; exec(src, ns)
 from pysr import PySRRegressor
 def r2(y, p): return 1-np.sum((y-p)**2)/np.sum((y-y.mean())**2)
-out = []
+import os
+OUTF = 'exp022b_pysr.csv'
+out = pd.read_csv(OUTF).to_dict('records') if os.path.exists(OUTF) else []
+done = {(r['site'], r['seed']) for r in out}
 for s in ns['SITES']:
     tr, te = ns['load'](s); F = ns['FEAT']
     last = max(ns['SITES'][s][3]); itr = tr[tr.year != last].sample(frac=1, random_state=0).iloc[:4000]; iva = tr[tr.year == last]
     for seed in range(3):
-        m = PySRRegressor(niterations=200, binary_operators=['+', '-', '*', '/'], unary_operators=['exp', 'log'],
+        if (s, seed) in done: continue
+        m = PySRRegressor(niterations=100, binary_operators=['+', '-', '*', '/'], unary_operators=['exp', 'log'],
                           maxsize=25, populations=30, random_state=seed, deterministic=True, parallelism='serial',
-                          timeout_in_seconds=600, progress=False)
+                          timeout_in_seconds=900, procs=4, progress=False)
         m.fit(itr[F].values, itr.eps.values, variable_names=F)
         eq = m.equations_
         sc = [r2(iva.eps.values, m.predict(iva[F].values, index=i)) for i in eq.index]
         b = int(np.nanargmax(sc)); p = m.predict(te[F].values, index=b)
         out.append(dict(site=s, seed=seed, complexity=eq.complexity[b], r2_val=sc[b], r2_test=r2(te.eps.values, p), expr=eq.equation[b]))
         print(out[-1], flush=True)
-pd.DataFrame(out).to_csv('exp022b_pysr.csv', index=False)
+        pd.DataFrame(out).to_csv(OUTF, index=False)
