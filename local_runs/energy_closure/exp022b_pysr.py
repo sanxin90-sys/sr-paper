@@ -19,8 +19,8 @@ for s in ns['SITES']:
     for seed in range(3):
         if (s, seed) in done: continue
         m = PySRRegressor(niterations=100, binary_operators=['+', '-', '*', '/'], unary_operators=['exp', 'log'],
-                          maxsize=25, populations=30, random_state=seed, deterministic=True, parallelism='serial',
-                          timeout_in_seconds=900, procs=4, progress=False)
+                          maxsize=25, populations=30, random_state=seed, parallelism='multithreading',
+                          timeout_in_seconds=900, progress=False)
         m.fit(itr[F].values, itr.eps.values, variable_names=F)
         eq = m.equations_
         sc = [r2(iva.eps.values, m.predict(iva[F].values, index=i)) for i in eq.index]
