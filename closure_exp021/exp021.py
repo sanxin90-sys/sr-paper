@@ -12,8 +12,11 @@ RAW_DIR holds <site>.pkl from reduce.py.
 """
 import sys, time, numpy as np, pandas as pd
 from scipy.signal import savgol_filter
-from sklearn.ensemble import HistGradientBoostingRegressor
-from pyoperon.sklearn import SymbolicRegressor
+try:  # only needed for the full run, not for prep_inputs.py
+    from sklearn.ensemble import HistGradientBoostingRegressor
+    from pyoperon.sklearn import SymbolicRegressor
+except ImportError:
+    pass
 
 RAW, OUT = sys.argv[1], sys.argv[2]
 QUICK = "--quick" in sys.argv
