@@ -1,0 +1,41 @@
+EXP-032 local run (Windows 11, 12 threads, 32 GB). Engine wrappers: src/sr_benchmark/methods.py, unchanged; run_engine.py adds POSIX shims for Windows.
+Fits ran in parallel, so run times are not comparable with single-process runs. PhySO: 4 processes, 3 threads each, 5 epochs per fit. DSO: 6 processes, n_samples=12000. AI Feynman: 6 processes, 1800 s budget per fit, all 28 reached the budget, so each equation is the best found at the cut.
+
+Differences from the Article 1 setup:
+- DSO: Python 3.9 instead of 3.8 (TensorFlow 2.13.1 has no Windows wheel for 3.8); commit 8348d5b + dso_tf2_compat.patch; cyfunc built with winlibs MinGW (-D MS_WIN64).
+- AI Feynman: commit a05bc4a + upstream_patches.diff; Windows with winlibs MinGW gcc/gfortran 16.2.0; numpy 2 f2py with meson.
+  nmax lowered to 100000 in the .f90 sources (see aifeynman_windows.diff): the original 2 GB static arrays did not load on Windows. Largest data here: 10000 rows. Row capacity only.
+  .exe launchers (feynman_launcher.c, build_aif.sh) replace the POSIX entry scripts; on timeout the process tree is ended with taskkill.
+  Equations containing 666.0 probably reflect the clamp limit() with xmax=666 in tools.f90 (upstream code); not confirmed.
+- AI-Lorenz: PySR with the run_pysr_closure.py settings, X-TFC targets from prep_lorenz.py.
+
+Packages:
+[physo] Python 3.11.17
+numpy             2.4.6
+pandas            3.1.0
+physo             1.1.11
+scikit-learn      1.9.1
+scipy             1.17.1
+sympy             1.14.0
+torch             2.15.0
+[dsoenv] Python 3.9.25
+numba                        0.58.1
+numpy                        1.24.3
+pandas                       2.3.3
+scikit-learn                 1.6.1
+scipy                        1.13.1
+sympy                        1.9
+tensorflow-cpu               2.13.1
+[aifenv] Python 3.11.17
+meson             1.12.1
+numpy             2.4.6
+pandas            3.1.1
+scikit-learn      1.9.1
+scipy             1.17.1
+sympy             1.14.0
+torch             2.15.0
+[pysr .venv] Python 3.11.17
+numpy             2.4.6
+pandas            3.1.0
+pysr              2.7.2
+sympy             1.14.0

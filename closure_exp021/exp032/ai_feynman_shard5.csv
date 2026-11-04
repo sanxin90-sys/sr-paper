@@ -1,0 +1,5 @@
+task,seed,equation,is_best,status,seconds
+loso_Ji3,0,tan(0.115343283647 - WS/T),True,ok,1800.9
+RH__Ji3__loso__0,0,107.82 - T,True,ok,1800.7
+RH__Sa1__loso__0,0,666.0/(T - 1),True,ok,1800.5
+Rn__Ma3__loso__0,0,SW*log(log(-1 + pi**2)) - 20.9,True,ok,1800.6

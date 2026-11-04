@@ -1,0 +1,143 @@
+diff --git a/aifeynman/S_gradient_decomposition.py b/aifeynman/S_gradient_decomposition.py
+index 92c8842..91ec581 100644
+--- a/aifeynman/S_gradient_decomposition.py
++++ b/aifeynman/S_gradient_decomposition.py
+@@ -105,10 +105,10 @@ def score_consistency(grads_tensor):
+     n_pts = grads_tensor.shape[0]
+     grads_tensor = grads_tensor.cpu()
+     norms = [np.linalg.norm(grads_tensor[i, :].numpy()) for i in range(n_pts)]
+-    normalized_grads = [grads_tensor[i,:].numpy()/norms[i] for i in range(n_pts)]
++    normalized_grads = [grads_tensor[i,:].numpy()/max(norms[i], 1e-12) for i in range(n_pts)]  # local patch: avoid 0/0
+     A = np.array(normalized_grads)
+     D = np.einsum('ij,ik', A, A)
+-    evals, evecs = np.linalg.eig(D)
++    evals, evecs = np.linalg.eigh(D)  # local patch: D = A^T A is symmetric; eig gave complex output that breaks scipy>=1.15 iqr
+     nv = evals.shape[0]
+     assert(nv == A.shape[1])
+     # evecs should be d x (num eigenvectors - probably also d)
+diff --git a/aifeynman/S_run_aifeynman.py b/aifeynman/S_run_aifeynman.py
+index 54a80dc..7f46869 100644
+--- a/aifeynman/S_run_aifeynman.py
++++ b/aifeynman/S_run_aifeynman.py
+@@ -68,7 +68,7 @@ def run_AI_all(pathdir,filename,BF_try_time=60,BF_ops_file_type="14ops", polyfit
+         model_feynman = NN_eval(pathdir,filename)[1]
+     elif path.exists("results/NN_trained_models/models/" + filename + "_pretrained.h5"):
+         print("Found pretrained NN \n")
+-        model_feynman = NN_train(pathdir,filename,NN_epochs/2,lrs=1e-3,N_red_lr=3,pretrained_path="results/NN_trained_models/models/" + filename + "_pretrained.h5")
++        model_feynman = NN_train(pathdir,filename,int(NN_epochs//2),lrs=1e-3,N_red_lr=3,pretrained_path="results/NN_trained_models/models/" + filename + "_pretrained.h5")
+         print("NN loss after training: ", NN_eval(pathdir,filename), "\n")
+     else:
+         print("Training a NN on the data... \n")
+diff --git a/aifeynman/symbolic_regress1.f90 b/aifeynman/symbolic_regress1.f90
+index 31b6d80..1fb470f 100644
+--- a/aifeynman/symbolic_regress1.f90
++++ b/aifeynman/symbolic_regress1.f90
+@@ -41,7 +41,7 @@
+ 	character*256 opsfile, templatefile, mysteryfile, outfile, usedfuncs
+ 	character*60 comline, functions, ops, formula
+ 	integer arities(21), nvar, nvarmax, nmax, lnblnk
+-	parameter(nvarmax=20, nmax=10000000)
++	parameter(nvarmax=20, nmax=100000)
+ 	real*8 f, newloss, minloss, maxloss, rmsloss, xy(nvarmax+1,nmax), epsilon, DL, DL2, DL3
+ 	parameter(epsilon=0.00000001)
+ 	data arities /2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0/
+diff --git a/aifeynman/symbolic_regress2.f90 b/aifeynman/symbolic_regress2.f90
+index 4a514df..6500f57 100644
+--- a/aifeynman/symbolic_regress2.f90
++++ b/aifeynman/symbolic_regress2.f90
+@@ -41,7 +41,7 @@
+ 	character*256 opsfile, templatefile, mysteryfile, outfile, usedfuncs
+ 	character*60 comline, functions, ops, formula
+ 	integer arities(21), nvar, nvarmax, nmax, lnblnk
+-	parameter(nvarmax=20, nmax=10000000)
++	parameter(nvarmax=20, nmax=100000)
+ 	real*8 f, newloss, minloss, maxloss, rmsloss, xy(nvarmax+1,nmax), epsilon
+ 	real*8 ymax, prefactor, DL, DL2, DL3, limit
+ 	parameter(epsilon=0.00001)
+diff --git a/aifeynman/symbolic_regress3.f90 b/aifeynman/symbolic_regress3.f90
+index a2e0574..d568026 100644
+--- a/aifeynman/symbolic_regress3.f90
++++ b/aifeynman/symbolic_regress3.f90
+@@ -41,7 +41,7 @@
+ 	character*256 opsfile, templatefile, mysteryfile, outfile, usedfuncs
+ 	character*60 comline, functions, ops, formula
+ 	integer arities(21), nvar, nvarmax, nmax, lnblnk
+-	parameter(nvarmax=20, nmax=10000000)
++	parameter(nvarmax=20, nmax=100000)
+ 	real*8 f, newloss, minloss, maxloss, rmsloss, xy(nvarmax+1,nmax), epsilon
+ 	real*8 ymin, prefactor, DL, DL2, DL3, limit
+ 	parameter(epsilon=0.00001)
+diff --git a/aifeynman/symbolic_regress_mdl2.f90 b/aifeynman/symbolic_regress_mdl2.f90
+index 94460d2..ec80ea2 100644
+--- a/aifeynman/symbolic_regress_mdl2.f90
++++ b/aifeynman/symbolic_regress_mdl2.f90
+@@ -46,7 +46,7 @@
+ 	character*256 opsfile, templatefile, mysteryfile, outfile, usedfuncs
+ 	character*60 comline, functions, ops, formula
+ 	integer arities(21), nvar, nvarmax, nmax, lnblnk
+-	parameter(nvarmax=20, nmax=5000000)
++	parameter(nvarmax=20, nmax=100000)
+ 	real*8 f, newloss, minloss, maxloss, rmsloss, limit
+         real*8 xy0(nvarmax+1,nmax), xy(nvarmax+1,nmax), offset(nmax), offst, bestoffset
+         real*8 epsilon, DL, nu, z
+diff --git a/aifeynman/symbolic_regress_mdl3.f90 b/aifeynman/symbolic_regress_mdl3.f90
+index d135d5b..9a6e029 100644
+--- a/aifeynman/symbolic_regress_mdl3.f90
++++ b/aifeynman/symbolic_regress_mdl3.f90
+@@ -46,7 +46,7 @@
+ 	character*256 opsfile, templatefile, mysteryfile, outfile, usedfuncs
+ 	character*60 comline, functions, ops, formula
+ 	integer arities(21), nvar, nvarmax, nmax, lnblnk
+-	parameter(nvarmax=20, nmax=5000000)
++	parameter(nvarmax=20, nmax=100000)
+ 	real*8 f, newloss, minloss, maxloss, rmsloss, limit
+         real*8 xy0(nvarmax+1,nmax), xy(nvarmax+1,nmax), y(nmax), offset(nmax), offst, bestoffset
+         real*8 epsilon, DL, nu, z
+diff --git a/aifeynman/symbolic_regress_mdl4.f90 b/aifeynman/symbolic_regress_mdl4.f90
+index 2dc1e35..75df6e5 100644
+--- a/aifeynman/symbolic_regress_mdl4.f90
++++ b/aifeynman/symbolic_regress_mdl4.f90
+@@ -49,7 +49,7 @@
+ 	character*256 opsfile, templatefile, mysteryfile, outfile, usedfuncs
+ 	character*60 comline, functions, ops, formula
+ 	integer arities(21), nvar, nvarmax, nmax, lnblnk
+-	parameter(nvarmax=20, nmax=1000000)
++	parameter(nvarmax=20, nmax=100000)
+ 	real*8 f, minloss, maxloss, rmsloss
+         real*8 xy0(2*nvarmax,nmax), xy(2*nvarmax,nmax), gradf(nvarmax,nmax), gradfhat(nvarmax)
+         real*8 epsilon, DL, nu, z
+diff --git a/aifeynman/symbolic_regress_mdl5.f90 b/aifeynman/symbolic_regress_mdl5.f90
+index 2dc1e35..75df6e5 100644
+--- a/aifeynman/symbolic_regress_mdl5.f90
++++ b/aifeynman/symbolic_regress_mdl5.f90
+@@ -49,7 +49,7 @@
+ 	character*256 opsfile, templatefile, mysteryfile, outfile, usedfuncs
+ 	character*60 comline, functions, ops, formula
+ 	integer arities(21), nvar, nvarmax, nmax, lnblnk
+-	parameter(nvarmax=20, nmax=1000000)
++	parameter(nvarmax=20, nmax=100000)
+ 	real*8 f, minloss, maxloss, rmsloss
+         real*8 xy0(2*nvarmax,nmax), xy(2*nvarmax,nmax), gradf(nvarmax,nmax), gradfhat(nvarmax)
+         real*8 epsilon, DL, nu, z
+diff --git a/aifeynman/tools.f90 b/aifeynman/tools.f90
+index 3914772..8948b07 100644
+--- a/aifeynman/tools.f90
++++ b/aifeynman/tools.f90
+@@ -150,7 +150,7 @@
+ 	real*8 function mymedian(n,a)
+         implicit none
+         integer n,nmax, i
+-        parameter(nmax=10000000)
++        parameter(nmax=100000)
+         real*8 a(n), b(nmax)
+         if (n.gt.nmax) stop 'DEATH ERROR: n>nmax in mymedian'
+         do i=1,n
+@@ -165,7 +165,7 @@
+ 
+ 	subroutine permutation(n,iarr) ! Return a random permutation of the first n integer:
+ 	integer iarr(n), idum, nmax, i
+-        parameter(nmax=10000000)
++        parameter(nmax=100000)
+         real*8 arr(nmax), brr(nmax), ran1
+         if (n.gt.nmax) stop "PERMUTATION DEATH ERROR: nmax TOO SMALL"
+         idum = -666
