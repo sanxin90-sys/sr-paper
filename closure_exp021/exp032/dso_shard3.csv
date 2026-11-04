@@ -1,0 +1,6 @@
+task,seed,equation,is_best,status,seconds
+local_Ma2,0,WS + (-1.6545274545298996 + 1.7168315172346087*(-sqrt(T)*WS + T)/T)*log(T),True,ok,521.0
+local_Sa1,0,-0.0001428137652194668*SW - 1.61070585966953e-6*T*VPD**2*(-T + log(SW))/log(sqrt(T)),True,ok,523.5
+loso_Ji3,0,-0.5862390921713017*WS/(sqrt(-T/WS)*log(T)) + 0.10427274583692726,True,ok,814.8
+loso_Ma3,0,0.13302942677827784 - 0.04475590404499105*sqrt(exp(WS)),True,ok,912.4
+loso_Sa3,0,0.12982930972698592 - 0.04593867394772799*sqrt(exp(WS)),True,ok,910.7
