@@ -1,0 +1,261 @@
+engine,task,mode,seed,T,SW,WS,VPD,expr,WS_only
+PySR,local_Ji3,local,0,False,False,True,False,(1.5944237 - WS)*0.10955858,True
+PySR,local_Ji3,local,1,False,False,True,False,(1.5627091 - WS)*0.11246249,True
+PySR,local_Ji3,local,2,False,False,True,False,0.16809869 + WS*(-0.10787999),True
+PySR,local_Ma2,local,0,False,False,True,False,exp(WS)*(-0.0014879578),True
+PySR,local_Ma2,local,1,False,False,True,False,exp(WS)*(-0.0015064613),True
+PySR,local_Ma2,local,2,False,False,True,False,exp(WS)*(-0.001483856),True
+PySR,local_Ma3,local,0,False,False,True,False,exp(WS)*(-0.007039853),True
+PySR,local_Ma3,local,1,False,False,True,False,exp(WS)*(-0.007037436),True
+PySR,local_Ma3,local,2,False,False,True,False,exp(WS)*(-0.007032701),True
+PySR,local_Sa1,local,0,True,False,False,False,exp(T)*8.17446e-15,False
+PySR,local_Sa1,local,1,False,True,False,True,SW*(SW*(-5.0509635e-7) + VPD*3.5049095e-5),False
+PySR,local_Sa1,local,2,True,False,False,False,exp(T)*8.182597e-15,False
+PySR,local_Sa3,local,0,False,True,True,True,(SW*(-0.13974246) + exp(WS))*(SW*(-0.028013421) + VPD)*(-0.00025671767),False
+PySR,local_Sa3,local,1,True,True,False,True,SW*5.81791e-7*(-SW + T*VPD),False
+PySR,local_Sa3,local,2,False,True,False,False,SW*(-0.00010926778),False
+PySR,loso_Ji3,loso,0,False,False,True,False,(1.9696925 - WS)/14.262161,True
+PySR,loso_Ji3,loso,1,False,False,True,False,(WS - 1.979549)*(-0.07168172),True
+PySR,loso_Ji3,loso,2,False,False,True,False,(1.9613558 - WS)/14.9569645,True
+PySR,loso_Ma2,loso,0,False,False,True,False,exp(WS)*(-0.0022943635),True
+PySR,loso_Ma2,loso,1,False,False,True,False,exp(WS)*(-0.002300864),True
+PySR,loso_Ma2,loso,2,False,True,True,True,(WS - (1.8603953 - 0.00047554466*SW*(SW*0.02109786 - VPD)))*(-0.06936928),False
+PySR,loso_Ma3,loso,0,False,False,True,False,WS*(-0.08284362) - 1*(-0.16872017),True
+PySR,loso_Ma3,loso,1,False,False,True,False,(1.94823 - WS)*0.08518985,True
+PySR,loso_Ma3,loso,2,False,False,True,False,0.15714124 + WS*(-0.07906001),True
+PySR,loso_Sa1,loso,0,False,False,True,False,(1.856841 - WS)*0.09470656,True
+PySR,loso_Sa1,loso,1,False,False,True,False,0.1834346 + WS*(-0.096920915),True
+PySR,loso_Sa1,loso,2,False,False,True,False,0.18151957 + WS*(-0.09745093),True
+PySR,loso_Sa3,loso,0,False,False,True,False,(WS - 1.8609561)*(-0.08240659),True
+PySR,loso_Sa3,loso,1,False,False,True,False,(1.8655782 - WS)*0.082147636,True
+PySR,loso_Sa3,loso,2,False,False,True,False,(WS - 1.8574396)*(-0.08307397),True
+KAN,local_Ji3,local,0,True,True,True,True,-0.00010393*SW + 0.0233957*T - 0.0105128*VPD - 0.0149072*WS**2 - 0.0349293*WS + 0.293347*sin(0.122081440796748*VPD - 9.17131130852635) - 0.214063 + 0.000819235/(-0.0269741*SW - 0.713175),False
+KAN,local_Ji3,local,1,True,True,True,True,-0.000627292*SW - 0.0112801*VPD - 0.101652*WS - 0.112324*sin(0.571999285847459*T - 15.4385680647746) - 0.533015*sin(-0.00201665312775456*SW + 0.018778029708048*T - 0.0942505074710706*VPD + 0.076122625,False
+KAN,local_Ji3,local,2,True,True,True,True,-0.000159385*SW - 0.000325135*T + 0.00569825*VPD - 0.0974133*WS - 0.0114106*exp(0.559371584916089*WS) + 0.209157 - 4.00277e-6/(3.60025e-5 - 0.0282892*SW),False
+KAN,local_Ma2,local,0,True,True,True,True,-0.000504099*SW - 0.00518104*T + 0.00589968*VPD - 0.100628*WS + 2.15231e-10*exp(0.654164004004418*T) + 0.18049 + 0.131552/(0.927593 - 0.000708626*SW),False
+KAN,local_Ma2,local,1,True,True,True,True,-0.000154904*SW - 0.000881477*T + 0.0133777*VPD - 0.102988*WS + 0.195733,False
+KAN,local_Ma2,local,2,True,True,True,True,-8.46872e-5*SW + 0.212596*T - 0.0010192*VPD - 0.00645418*WS + 0.985977*sin(7.29244218171803e-5*SW + 0.248125693928763*T - 0.00557132063127003*VPD + 0.036799081601205*exp(0.606669988625733*WS) - 9.6675,False
+KAN,local_Ma3,local,0,True,True,True,True,-0.00011124*SW - 0.00198618*T + 0.0145264*VPD - 0.164897*WS + 0.212629,False
+KAN,local_Ma3,local,1,True,True,True,True,-8.34046e-5*SW - 0.0423407*T + 0.00787902*VPD - 0.172572*WS + 0.00223717*exp(0.182554899496677*T) + 0.0473512*sin(0.423576207491887*VPD - 6.08758603415683) + 1.02143,False
+KAN,local_Ma3,local,2,True,True,True,True,-8.47231e-5*SW + 0.00242074*T + 0.0128115*VPD - 0.168131*WS + 0.115147,False
+KAN,local_Sa1,local,0,True,True,True,True,-0.00013432*SW - 0.015932*T + 0.014901*VPD - 0.0205875*WS + 0.419122,False
+KAN,local_Sa1,local,1,True,True,True,True,-0.000111501*SW - 0.0150949*T + 0.0134497*VPD - 0.0202076*WS + 0.398475,False
+KAN,local_Sa1,local,2,True,True,True,True,-0.000118328*SW - 0.00791542*T + 0.0096689*VPD - 0.0284846*WS + 0.250827,False
+KAN,local_Sa3,local,0,True,True,True,True,-0.000202762*SW - 0.00547896*T + 0.00742269*VPD - 0.0251073*WS + 0.155734,False
+KAN,local_Sa3,local,1,True,True,True,True,-0.000130488*SW + 0.0108176*T + 0.0013351*VPD - 0.0240948*WS + 0.0584787*sin(0.646634245145183*T - 19.4917471009363) - 0.220989,False
+KAN,local_Sa3,local,2,True,True,True,True,0.00012397*SW - 0.00670593*T + 0.0059069*VPD - 0.0300408*WS - 0.0162094*exp(0.00338155344893451*SW) + 0.207873,False
+KAN,loso_Ji3,loso,0,True,True,True,True,-0.000137002*SW + 0.33002*T - 0.00254867*VPD - 0.0694014*WS - 2.63425*sin(0.126574772748854*T + 3.18166251345744) - 7.93628,False
+KAN,loso_Ji3,loso,1,True,True,True,True,-0.000145222*SW - 0.015286*T - 0.00254797*VPD - 0.145611*WS + 9.25993e-5*exp(0.269412084772573*T) - 0.0543418*sin(0.00700868295875068*T - 4.34817616326261) + 0.115808*sin(0.957761576805728*WS + 4.1453,False
+KAN,loso_Ji3,loso,2,True,True,True,True,-1.957e-7*SW**2 + 3.15289e-5*SW + 0.629139*T + 0.00042766*VPD - 0.0726586*WS - 7.341*sin(0.0864365891528323*T - 2.13448094231387) - 15.3977,False
+KAN,loso_Ma2,loso,0,True,True,True,True,0.000248511*SW + 0.0052318*T**2 - 0.247515*T - 0.004532*VPD - 0.0642249*WS + 0.493511*sin(0.00163613345440153*SW + 1.6109773299436) + 2.54801,False
+KAN,loso_Ma2,loso,1,True,True,True,True,-4.81545e-7*SW**2 + 0.00018838*SW + 0.0135325*T + 0.00250151*VPD - 0.0669774*WS - 0.226321,False
+KAN,loso_Ma2,loso,2,True,True,True,True,-0.000497521*SW + 0.0432377*T - 0.00280733*VPD - 0.0614539*WS - 0.131179*sin(0.531953966530958*T - 6.99484814214091) - 0.585075 + 2.65219/(-0.0175723*SW - 7.00761),False
+KAN,loso_Ma3,loso,0,True,True,True,True,-0.000164216*SW + 0.0160921*T + 0.00135795*VPD - 0.0833651*WS - 0.229941,False
+KAN,loso_Ma3,loso,1,True,True,True,True,-0.000185767*SW + 0.015273*T + 0.00165471*VPD - 0.078296*WS - 0.215469,False
+KAN,loso_Ma3,loso,2,True,True,True,True,-0.000238863*SW + 0.0131794*T + 0.00309846*VPD - 0.0779448*WS - 0.814373*sin(0.00110395800802438*SW - 2.06282286428299) - 0.90188,False
+KAN,loso_Sa1,loso,0,True,True,True,True,-0.000177147*SW + 0.0162045*T - 0.00307342*VPD - 0.0966722*WS + 8.71647e-9*exp(0.527179170464411*T) + 0.00851407*sin(0.00232301191416815*SW - 1.2034194887603) - 0.191074,False
+KAN,loso_Sa1,loso,1,True,True,True,True,-6.37805e-5*SW + 0.0117642*T + 0.0057207*VPD - 0.108021*WS + 0.128177*sin(0.00292128559266871*SW + 0.817291850770952) - 0.22067,False
+KAN,loso_Sa1,loso,2,True,True,True,True,-4.0024e-7*SW**2 + 0.00013829*SW + 0.0118662*T + 0.0041406*VPD - 0.266765*WS - 0.367581*sin(0.632128807496422*WS - 10.3556257768804) + 0.107818,False
+KAN,loso_Sa3,loso,0,True,True,True,True,-0.000178336*SW + 0.0156179*T + 0.002127*VPD - 0.082674*WS - 0.225851,False
+KAN,loso_Sa3,loso,1,True,True,True,True,-0.000210379*SW + 0.0198308*T - 0.111292*VPD - 0.0888387*WS + 3.1209*sin(0.04132077360386*VPD + 5.35919612799278) + 2.29392 - 0.0392557*exp(-0.0204279202051836*SW),False
+KAN,loso_Sa3,loso,2,True,True,True,True,-0.000187387*SW + 0.0197176*T + 0.0249235*VPD - 0.0861572*WS - 1.08635 - 0.333908/(-0.0316649*VPD - 0.389107),False
+AI-Lorenz BB,local_Ji3,local,0,False,False,True,False,(WS - 1*1.7144953)*(-0.11751388),True
+AI-Lorenz BB,local_Ji3,local,1,False,False,True,False,0.19927377 - 0.11597646*WS,True
+AI-Lorenz BB,local_Ji3,local,2,False,False,True,False,(WS - 1.7491369)*(-0.118051335),True
+AI-Lorenz BB,local_Ma2,local,0,False,False,True,False,exp(WS)*(-0.001973121),True
+AI-Lorenz BB,local_Ma2,local,1,False,False,True,False,exp(WS)*(-0.00197092),True
+AI-Lorenz BB,local_Ma2,local,2,False,False,True,False,exp(WS)*(-0.0019728611),True
+AI-Lorenz BB,local_Ma3,local,0,False,False,True,False,exp(WS)*(-0.00966571),True
+AI-Lorenz BB,local_Ma3,local,1,False,False,True,False,-0.09529708/(4.3661947 - WS),True
+AI-Lorenz BB,local_Ma3,local,2,False,False,True,True,-0.16108246/(WS + (VPD + WS)*0.08015253 - 6.1574354),False
+AI-Lorenz BB,local_Sa1,local,0,False,False,False,True,-0.0064569716/(4.6852527 + exp(VPD)*(-0.008961505)),False
+AI-Lorenz BB,local_Sa1,local,1,True,False,False,False,exp(T)*7.509152e-15,False
+AI-Lorenz BB,local_Sa1,local,2,True,False,False,False,exp(T)*7.421017e-15,False
+AI-Lorenz BB,local_Sa3,local,0,False,True,False,False,-1.1072135e-6/(-(-2.4054027e-6)*SW - 0.0014359506),False
+AI-Lorenz BB,local_Sa3,local,1,False,True,True,False,0.010208953/(-SW + WS - 1*0.9981063),False
+AI-Lorenz BB,local_Sa3,local,2,True,True,False,False,0.55714077/(SW + T*T*(-0.48357168) + T),False
+AI-Lorenz BB,loso_Ji3,loso,0,True,True,True,False,1.1213629/(-SW + T*(T*WS - 2.3839688) + WS - 2.3829029),False
+AI-Lorenz BB,loso_Ji3,loso,1,True,False,True,False,-0.38189772/(T*WS - 1*2.3265705),False
+AI-Lorenz BB,loso_Ji3,loso,2,False,False,True,True,VPD*(-0.0009652078)/(WS - 1*0.08928723),False
+AI-Lorenz BB,loso_Ma2,loso,0,True,False,True,False,0.007880993/(WS*(T + T + T - WS/(0.69592386*0.80352765))*(-0.0031597677)/0.32811803 + 3.4675295),False
+AI-Lorenz BB,loso_Ma2,loso,1,False,False,True,False,exp(WS)*(-0.002419143),True
+AI-Lorenz BB,loso_Ma2,loso,2,False,False,True,False,exp(WS)*(-0.002434814),True
+AI-Lorenz BB,loso_Ma3,loso,0,True,False,True,False,WS*(0.09202748 - WS/T),False
+AI-Lorenz BB,loso_Ma3,loso,1,False,False,True,True,1.1690114/(29.213617 - (-VPD + 2.5070693/(0.15615836 - WS))),False
+AI-Lorenz BB,loso_Ma3,loso,2,True,False,True,False,WS*(0.09232788 - WS/T),False
+AI-Lorenz BB,loso_Sa1,loso,0,False,False,True,False,exp(WS)*(-0.0027369661),True
+AI-Lorenz BB,loso_Sa1,loso,1,False,False,True,False,exp(WS)*(-0.0027378444),True
+AI-Lorenz BB,loso_Sa1,loso,2,False,False,True,False,exp(WS)*(-0.0027482316),True
+AI-Lorenz BB,loso_Sa3,loso,0,True,True,True,False,0.18730204/((-T + T/(0.18730204 - SW))*(-WS - WS + 2.131745)),False
+AI-Lorenz BB,loso_Sa3,loso,1,False,True,True,False,SW*5.4949196e-6/(WS*0.29745668 - 1*0.3170498),False
+AI-Lorenz BB,loso_Sa3,loso,2,False,False,True,False,exp(WS)*(-0.0023084),True
+AI-Lorenz GB,local_Ji3,local,0,False,False,True,False,0.20900968 + WS*(-0.12445511),True
+AI-Lorenz GB,local_Ji3,local,1,False,False,True,False,(WS - 1*1.6980107)*(-0.12410058),True
+AI-Lorenz GB,local_Ji3,local,2,False,False,True,False,0.20749757 + WS*(-0.121854715),True
+AI-Lorenz GB,local_Ma2,local,0,False,False,True,False,exp(WS)*(-0.0023560089),True
+AI-Lorenz GB,local_Ma2,local,1,False,False,True,False,exp(WS)*(-0.0023666632),True
+AI-Lorenz GB,local_Ma2,local,2,False,False,True,False,exp(WS)*(-0.0023618639),True
+AI-Lorenz GB,local_Ma3,local,0,False,False,True,False,0.034642242/(WS - 4.355481),True
+AI-Lorenz GB,local_Ma3,local,1,False,False,True,False,-0.11957357/(4.3511477 - WS),True
+AI-Lorenz GB,local_Ma3,local,2,False,False,True,False,WS/(exp(WS) - 77.74282),True
+AI-Lorenz GB,local_Sa1,local,0,True,True,True,False,0.099308714/(SW*(-0.018250776)*WS + T),False
+AI-Lorenz GB,local_Sa1,local,1,True,False,False,False,exp(T)*5.6604527e-15,False
+AI-Lorenz GB,local_Sa1,local,2,True,False,True,False,-0.051542476/(-T + WS + exp(WS)),False
+AI-Lorenz GB,local_Sa3,local,0,False,False,True,True,-1.1774831/(VPD/0.17748311 - (exp(WS/0.17748311) + 2.155665)),False
+AI-Lorenz GB,local_Sa3,local,1,True,False,True,True,-1.0769717*exp(-VPD)/(T*(WS - 1.0003948)),False
+AI-Lorenz GB,local_Sa3,local,2,False,True,True,False,0.008355907/(1.0018929 - (-SW + WS)),False
+AI-Lorenz GB,loso_Ji3,loso,0,True,False,True,False,0.18104693/(T*WS - 1*2.3694127),False
+AI-Lorenz GB,loso_Ji3,loso,1,False,False,True,True,VPD*0.0053139757/(WS + WS - 0.18737908),False
+AI-Lorenz GB,loso_Ji3,loso,2,False,False,True,True,VPD/(0.883699 - VPD*(VPD + WS/(-0.010709881))),False
+AI-Lorenz GB,loso_Ma2,loso,0,False,False,True,False,(WS - 1.9527003)*(-0.08399169),True
+AI-Lorenz GB,loso_Ma2,loso,1,True,False,True,False,exp(0.9682051/(T*(4.367317 - WS))) - 1*1.0276179,False
+AI-Lorenz GB,loso_Ma2,loso,2,True,False,True,False,0.54590124/(T/(-0.6511735) - T + exp(WS) - 1*1.5379468),False
+AI-Lorenz GB,loso_Ma3,loso,0,False,False,True,False,exp(WS)*(-0.0012525894),True
+AI-Lorenz GB,loso_Ma3,loso,1,False,False,True,False,exp(WS)*(-0.0012593998),True
+AI-Lorenz GB,loso_Ma3,loso,2,False,False,True,False,exp(WS)*(-0.0012550963),True
+AI-Lorenz GB,loso_Sa1,loso,0,False,False,True,False,exp(WS)*(-0.0029830956),True
+AI-Lorenz GB,loso_Sa1,loso,1,False,False,True,False,exp(WS)*(-0.002989021),True
+AI-Lorenz GB,loso_Sa1,loso,2,False,False,True,False,exp(WS)*(-0.0029798644),True
+AI-Lorenz GB,loso_Sa3,loso,0,False,False,True,False,exp(WS)/(-380.50433),True
+AI-Lorenz GB,loso_Sa3,loso,1,True,True,False,False,-0.77922356/(SW + T/(-0.108373016)),False
+AI-Lorenz GB,loso_Sa3,loso,2,False,False,True,False,0.0011120852/(WS - 1*1.0659341),True
+PhySO,local_Ji3,local,1,False,False,True,False,-log(0.160394997486321*WS + 0.160394997486321*(exp(-WS - 1.0) + 1.63087689780305)**2 + 0.261584495923619),True
+PhySO,local_Ma2,local,2,True,False,True,False,-2.2005083449176*(WS - 2.02624921632989)/T,False
+PhySO,local_Sa1,local,0,True,False,True,False,8.67481748503589e-16*exp(T + WS) + log(1.0)**2,False
+PhySO,local_Sa3,local,1,False,True,False,False,1.9881740631607e-7 - 1.9881740631607e-7*(SW - 1.15332660261358)**2,False
+PhySO,loso_Ji3,loso,2,True,False,True,False,-1.87388076082608*(WS - 1.93208737274875)/T,False
+PhySO,loso_Ma3,loso,0,False,False,True,False,0.15794582877368 - 0.0802161897381502*WS,True
+PhySO,loso_Sa1,loso,1,False,False,True,False,0.0388481725711544 - 0.0388481725711544*(WS - 1.13922005189902)**2,True
+PhySO,loso_Sa3,loso,2,False,False,True,False,cos(0.207434010741649*WS) - 0.910764252130641,True
+PhySO,local_Ji3,local,0,False,False,True,True,sin(exp((2.21446016555088 - WS)/(-VPD - 4.32711665586516)) + 2.21446016555088),False
+PhySO,local_Ma2,local,1,False,False,True,False,-log(0.108183578957715*WS + 0.108183578957715*(exp(-WS - 1.0) + 2.17189121023149)**2 + 0.234962964229647),True
+PhySO,local_Ma3,local,2,False,False,True,False,0.0625131238893123 - 0.0102667917414315*WS**3,True
+PhySO,local_Sa3,local,0,False,True,False,True,-1.98087565434112e-7*SW**2 + 1.98087565434112e-7*VPD,False
+PhySO,loso_Ji3,loso,1,False,False,True,False,-0.984186523185867 + 3.39112959727042*sin(0.312311477033953*WS)/WS,True
+PhySO,loso_Ma2,loso,2,True,False,True,False,-1.81551291167204*(WS - 1.79680275516612)/T,False
+PhySO,loso_Sa1,loso,0,False,False,True,False,0.164233773616767*WS**0.5 - 0.164233773616767*WS + 0.0936354740390877,True
+PhySO,loso_Sa3,loso,1,False,False,True,False,-log(0.119975512479961*WS + 0.119975512479961*(exp(-WS - 1.0) + 2.03041820448213)**2 + 0.243600464631385),True
+PhySO,local_Ji3,local,2,False,False,True,False,cos(0.247056366479922*WS) - 0.895885599489601,True
+PhySO,local_Ma3,local,0,True,False,True,False,-0.142053059423701*WS + 0.03722771561314*log(T) + 0.102581325676012,False
+PhySO,local_Sa1,local,1,True,False,False,True,(VPD + 23.2696803142423/(T - 26.9554708574779))**(-2),False
+PhySO,local_Sa3,local,2,False,True,True,False,-2.76252460753491e-10*SW**2*(SW + log(WS)**2),False
+PhySO,loso_Ma2,loso,0,False,False,True,False,sin(log(WS + 6.45852927181507)) - 0.854232860664377,True
+PhySO,loso_Ma3,loso,1,False,False,True,False,-log(0.11304782249593*WS + 0.11304782249593*(exp(-WS - 1.0) + 2.11141520637184)**2 + 0.238690891465132),True
+PhySO,loso_Sa1,loso,2,True,False,True,True,-WS*sin(log(T**2 + VPD + 6085.68942689507) - 5.7844522342657) + 0.195769946590134,False
+PhySO,local_Ma2,local,0,False,False,True,False,1.0 - 0.840170566806955*exp(0.0819144018857546*WS),True
+PhySO,local_Ma3,local,1,True,False,True,False,-T + (-0.0976639948293732*T*exp(0.00749648496607458/WS) - 2.53736646284099)**2,False
+PhySO,local_Sa1,local,2,True,False,False,True,0.276736204063068*cos(1/(0.787881595135564 - 0.629572839026501*VPD/T))**2,False
+PhySO,loso_Ji3,loso,0,False,False,True,False,0.138445384890175 - 0.0703760578602608*WS,True
+PhySO,loso_Ma2,loso,1,False,False,True,False,sin(0.165112933111404*(exp(WS) + 352.721369787995)**0.5),True
+PhySO,loso_Ma3,loso,2,False,False,True,False,cos(0.201987895489052*WS) - 0.906680061394402,True
+PhySO,loso_Sa3,loso,0,False,False,True,False,0.141468823545014*WS**0.5 - 0.141468823545014*WS + 0.077646264898586,True
+DSO,local_Ma2,local,2,True,True,True,False,-WS**2*(-0.1719454851104922 + 1/sqrt(T + 2.86913396209621e-5*WS*exp(WS)/SW)) + 0.10395684250782304,False
+DSO,local_Sa1,local,2,True,True,False,True,-0.000101398018125828*SW*(-T + 28.855153678125202 - exp(-VPD)) - 0.000101398018125828*VPD + 0.031199600328894753,False
+DSO,loso_Ji3,loso,2,True,True,True,False,-WS**2*(-0.17456589554281593 + 1/sqrt(T + 0.0001122135855272238*WS*exp(WS)/SW)) + 0.08239944063505229,False
+DSO,loso_Ma3,loso,2,True,True,True,False,-WS**2*(-0.17229741166287268 + 1/sqrt(T + 1.6094590302380416e-5*WS*exp(WS)/SW)) + 0.09846606687300753,False
+DSO,loso_Sa3,loso,2,True,True,True,False,-WS**2*(-0.1721533185294745 + 1/sqrt(T + 0.0001276500854737357*WS*exp(WS)/SW)) + 0.08927089110796282,False
+DSO,local_Ji3,local,1,True,False,True,False,-2.7234222364182554*(WS - 1.528644406961725)/T,False
+DSO,local_Ma3,local,1,True,False,True,True,0.06619525222381192 - 0.010549686268443695*exp(WS - exp(VPD + WS*(-T + WS - 1/VPD))),False
+DSO,local_Sa3,local,1,True,True,True,True,-9.57371507353538e-6*exp(1/sqrt(-T/((SW - VPD - 2*WS)*log(T)))),False
+DSO,loso_Ma2,loso,1,False,True,False,True,(1.4241834154892232e-5*VPD/sqrt(exp(1/sqrt(SW))) - 0.0002999157994320459)*exp(sqrt(SW))**(1/4),False
+DSO,loso_Sa1,loso,1,False,False,True,False,WS*(-0.7153322935625007 - log(0.03468790648593894 + exp(-0.8062772086735631*WS))/WS),True
+DSO,local_Ji3,local,0,False,True,True,True,-0.0011837073747655675*SW*VPD/sqrt((-0.15232109138394326 + 1/WS)*exp(VPD)),False
+DSO,local_Ma3,local,0,True,False,True,False,WS + (-1.7451606105951991 + 1.8250677316908883*(-sqrt(T)*WS + T)/T)*log(T),False
+DSO,local_Sa3,local,0,True,True,False,True,2.1256739729984446e-7*SW*(-SW + 1/sqrt(exp(1/VPD)/T**2)) - 2.1256695655054759e-7,False
+DSO,loso_Ma2,loso,0,False,False,True,False,0.12476350312726525 - 0.045344604419966*sqrt(exp(WS)),True
+DSO,loso_Sa1,loso,0,True,False,True,False,WS + (-1.666585676944207 + 1.7265778106627314*(-sqrt(T)*WS + T)/T)*log(T),False
+DSO,local_Ma2,local,0,True,False,True,False,WS + (-1.6545274545298996 + 1.7168315172346087*(-sqrt(T)*WS + T)/T)*log(T),False
+DSO,local_Sa1,local,0,True,True,False,True,-0.0001428137652194668*SW - 1.61070585966953e-6*T*VPD**2*(-T + log(SW))/log(sqrt(T)),False
+DSO,loso_Ji3,loso,0,True,False,True,False,-0.5862390921713017*WS/(sqrt(-T/WS)*log(T)) + 0.10427274583692726,False
+DSO,loso_Ma3,loso,0,False,False,True,False,0.13302942677827784 - 0.04475590404499105*sqrt(exp(WS)),True
+DSO,loso_Sa3,loso,0,False,False,True,False,0.12982930972698592 - 0.04593867394772799*sqrt(exp(WS)),True
+DSO,local_Ma2,local,1,False,True,True,False,7.55525946452735e-5*exp(WS)*log(-exp(SW)),False
+DSO,local_Sa1,local,1,False,True,False,True,(1.6273623921952604e-5*VPD/sqrt(exp(1/sqrt(SW))) - 0.00021135518170705534)*exp(sqrt(SW))**(1/4),False
+DSO,loso_Ji3,loso,1,True,False,True,False,0.1520595513531503 - 1.982694636070694*WS/T,False
+DSO,loso_Ma3,loso,1,False,False,True,False,WS*(-0.7834590003323304 - log(0.01844619674271291 + exp(-0.8354377869242037*WS))/WS),True
+DSO,loso_Sa3,loso,1,True,False,True,False,log(1/(-exp(0.0731198493818504*WS) + 0.3956559921739186*exp(-exp(exp(exp(T)))))),False
+DSO,local_Ji3,local,2,True,True,True,True,0.002855913116105522*T + 0.002855913116105522*WS*(-0.13365133036800872*SW + 0.13365133036800872*SW*VPD/T - 1/VPD),False
+DSO,local_Ma3,local,2,True,False,True,True,log(sqrt(log(log((-T + log(VPD))/(WS + 0.07831700211701885))))),False
+DSO,local_Sa3,local,2,False,True,True,True,-0.00017984740716750193*SW + 0.032754547022466725 + 0.00017984740716750193*exp(2*WS)/(SW/log(VPD) - 5.597904240358215),False
+DSO,loso_Ma2,loso,2,True,True,False,True,-8.1658392942173567e-5*SW*(-T + 30.041715831070942 - exp(-VPD)) - 8.1658392942173567e-5*VPD + 0.02591150895025508,False
+DSO,loso_Sa1,loso,2,True,True,True,False,-WS**2*(-0.1689413064306678 + 1/sqrt(T + 0.0008074618873140556*WS*exp(WS)/SW)) + 0.10444048853165096,False
+SINDy,local_Ji3,local,0,True,True,True,True,-0.1434*WS + -0.07251*VPD + -0.2448*T*T + -0.2205*T*SWs + -0.1905*T*WS + 0.5468*T*VPD + 0.02616*SWs*SWs + -0.1026*SWs*WS + 0.2199*SWs*VPD + -0.07533*WS*WS + 0.2401*WS*VPD + -0.2458*VPD*VPD,False
+Operon,local_Ji3,local,0,True,True,True,True,(0.0003 + (1.0000 * ((((-0.1134) * WS) + ((((-66.0901) + (0.9125 * VPD)) - ((-0.2847) * SW)) / (1.8518 * T))) + ((((-0.0053) * SW) - (-1.2562)) * ((0.6168 + (0.0002 * SW)) + (exp(((-0.1346) * VPD)) - ,False
+Operon,local_Ji3,local,1,True,True,True,True,((-0.0006) + (1.0000 * ((((0.0037 * T) + ((-0.0005) * SW)) - (((0.1894 * WS) - (0.0066 * T)) - (0.0208 * VPD))) - (exp((((((-1.2738) * WS) - (0.1403 * VPD)) + ((-0.2973) * SW)) / exp(1.7795))) * ((((-,False
+Operon,local_Ji3,local,2,True,True,True,True,(0.0000 + (1.0000 * (((((((-0.0050) * T) + (0.0018 * WS)) * (((1.3404 * WS) + (0.0037 * SW)) - ((-1.6709) * VPD))) * ((((-0.0659) * SW) - (-2.6850)) - ((-2.5501) * VPD))) / ((-4.5801) * VPD)) + (((((-,False
+SINDy,local_Ma2,local,0,True,True,True,True,-0.1304*WS + -0.003637*VPD + -0.1302*T*T + 0.1371*T*SWs + -0.06784*T*WS + 0.1592*T*VPD + -0.04877*SWs*SWs + 0.0603*SWs*WS + -0.09996*SWs*VPD + -0.09723*WS*WS + 0.08204*WS*VPD + -0.01752*VPD*VPD,False
+Operon,local_Ma2,local,0,True,True,True,True,(0.0000 + (1.0000 * (((-0.0970) * WS) + (((0.0008 * SW) - ((-0.0632) * T)) + (((exp(((-0.0139) * SW)) + ((-0.0023) * VPD)) * ((((-0.0096) * SW) - (0.0880 * T)) - ((-7.1260) + 5.2627))) + (((-0.0019) *,False
+Operon,local_Ma2,local,1,True,True,True,True,((-0.0003) + (1.0101 * (((((((-0.1541) - ((-0.0024) * VPD)) - ((-0.0121) * WS)) - exp(((-0.0131) * SW))) * (((0.0100 * SW) - 1.5264) - ((-0.0779) * T))) + (((0.0654 * T) - ((-0.1244) * WS)) - (exp((0.,False
+Operon,local_Ma2,local,2,True,True,True,False,((-0.0002) + (1.0452 * (((exp(((-0.0136) * SW)) * (3.2278 - (0.1016 * T))) - exp((0.2268 * WS))) + (((0.0563 * T) * exp((0.1495 * WS))) - (exp(((-0.0077) * SW)) + (0.0009 * SW)))))),False
+SINDy,local_Sa1,local,0,True,True,True,True,-0.01603*WS + -0.03104*VPD + -0.0123*T*T + 0.04084*T*SWs + 0.04994*T*WS + -0.01171*T*VPD + -0.06244*SWs*SWs + -0.00758*SWs*WS + 0.003888*SWs*VPD + -0.002129*WS*WS + -0.01698*WS*VPD + 0.02796*VPD*VPD,False
+Operon,local_Sa1,local,0,True,True,True,True,((-0.0001) + (1.0000 * ((((((-0.5961) * SW) + ((-3.0069) * T)) - (((-0.5905) * SW) - 84.4697)) * ((((0.0001 * SW) - ((-0.0016) * T)) - 0.0300) - (0.0045 * WS))) + ((((-2.2780) * T) + 61.7546) * ((((-0,False
+Operon,local_Sa1,local,1,True,True,True,False,(0.0003 + (1.0068 * ((0.1567 * T) - (((exp((((-0.0631) * WS) + ((-0.0014) * SW))) * ((exp(((0.0511 * T) - ((-0.0003) * SW))) + ((-0.0290) * WS)) - 5.1218)) + 4.3366) + (exp((((-0.0206) * WS) + ((-0.00,False
+Operon,local_Sa1,local,2,True,True,True,True,(0.0000 + (0.9965 * ((((exp(((-0.0024) * SW)) + (((0.5125 * T) - ((-0.0088) * SW)) + (-0.2772))) + ((-0.0062) * SW)) * ((((-0.0052) * T) - ((-0.0003) * SW)) - (exp(((-0.0002) * VPD)) + ((-0.0246) * WS,False
+SINDy,local_Ma3,local,0,True,True,True,True,-0.1594*WS + 0.02308*VPD + -0.0003526*T*T + 0.07414*T*SWs + -0.06643*T*WS + -0.02777*T*VPD + -0.1054*SWs*SWs + 0.1408*SWs*WS + -0.03994*SWs*VPD + -0.09094*WS*WS + 0.04892*WS*VPD + 0.05183*VPD*VPD,False
+Operon,local_Ma3,local,0,True,True,True,True,(0.0000 + (1.0035 * (((((0.0771 * T) + ((-0.2590) * WS)) - 0.7381) + (((((((-0.0997) * T) + ((-0.2172) * WS)) - (-2.4674)) - exp((0.0054 * SW))) * exp(((-0.0047) * SW))) + ((((-17.2980) * WS) + (1.045,False
+Operon,local_Ma3,local,1,True,True,True,False,(0.0001 + (0.9924 * ((exp((((-0.0150) * SW) - ((-0.5146) * WS))) - ((((((-0.0007) * SW) - exp((((-0.0127) * SW) - ((-0.4989) * WS)))) - exp((0.2267 * WS))) - (((-0.0140) * T) + ((-0.9890) * WS))) * ((,False
+Operon,local_Ma3,local,2,True,True,True,True,((-0.0000) + (1.0016 * (((((0.0060 * SW) - ((-0.0669) * T)) + ((0.2483 * WS) - (0.4010 + (0.0078 * SW)))) + (0.0071 * VPD)) + (((((-0.0610) * T) - exp(((0.0087 * SW) + ((-0.0175) * WS)))) + 1.4135) / ,False
+SINDy,local_Sa3,local,0,True,True,True,True,-0.04039*WS + -0.001272*VPD + -0.02002*T*T + 0.01898*T*SWs + 0.03344*T*WS + 0.01942*T*VPD + -0.03767*SWs*SWs + 0.03548*SWs*WS + 0.007815*SWs*VPD + -0.006413*WS*WS + -0.005461*WS*VPD + 0.01124*VPD*VPD,False
+Operon,local_Sa3,local,0,True,True,True,False,((-0.0005) + (1.0044 * ((((((-2.8397) * WS) + ((0.0920 * SW) + (-22.7753))) - ((-0.9841) * T)) * ((((0.0006 * T) + (((-0.0000) * SW) + ((-0.0002) * WS))) * exp((0.2328 * WS))) - (0.0236 - (0.0000 * SW,False
+Operon,local_Sa3,local,1,True,True,True,False,(0.0000 + (1.0000 * ((((-0.0230) * T) + 0.8389) + (((((-0.2110) - (0.0012 * SW)) * ((((0.1851 - ((-0.0003) * SW)) + ((-0.5553) * WS)) * ((0.0353 * T) - (0.0008 * SW))) + (((-0.0536) * T) + 1.5036))) +,False
+Operon,local_Sa3,local,2,True,True,True,True,(0.0001 + (0.9999 * (((((((((0.0077 * SW) - 4.1997) - ((-3.8384) - ((-1.1412) * WS))) + ((-0.9140) * T)) - ((-0.0699) * VPD)) * (((-0.0001) * SW) + (0.0010 * WS))) - (0.0019 * SW)) * (((-0.0004) * SW),False
+SINDy,loso_Ji3,loso,0,True,True,True,True,-0.1038*WS + 4.885e-05*VPD + -0.03899*T*T + 0.0784*T*SWs + -0.0006884*T*WS + 0.01368*T*VPD + -0.05512*SWs*SWs + 0.04233*SWs*WS + -0.03468*SWs*VPD + -0.05372*WS*WS + 0.01025*WS*VPD + 0.03739*VPD*VPD,False
+Operon,loso_Ji3,loso,0,True,True,True,True,(0.0004 + (1.0014 * (((((-0.3406) + ((-0.0008) * SW)) - ((-0.0698) * T)) + (0.0007 * VPD)) - ((((((0.0222 * WS) + (0.0246 * T)) + (-0.5795)) / exp((-0.9915))) / exp(((0.0049 * SW) + ((-0.1109) * WS))),False
+Operon,loso_Ji3,loso,1,True,True,True,False,(0.0001 + (0.9987 * ((((((-0.1824) * WS) + 0.6805) - ((0.1186 * T) + 0.5589)) - exp((((0.1767 * T) - ((-0.8559) * WS)) - (((0.0058 * SW) - ((-0.4554) * WS)) - (-6.7040))))) + (exp(((0.0501 * WS) - ((-,False
+Operon,loso_Ji3,loso,2,True,True,True,False,((-0.0012) + (1.0040 * (((((-0.0005) * SW) - 0.8689) - ((-0.1942) * WS)) + (((((0.8903 - (0.0645 * T)) * exp((0.1201 * WS))) + (exp(((-0.0087) * SW)) - ((-0.0065) * SW))) / exp((0.0052 * SW))) + ((0.0,False
+SINDy,loso_Ma2,loso,0,True,True,True,True,-0.107*WS + -0.02476*VPD + -0.02163*T*T + -0.009902*T*SWs + 0.01044*T*WS + 0.007713*T*VPD + -0.03418*SWs*SWs + -0.000786*SWs*WS + 0.04784*SWs*VPD + -0.0285*WS*WS + 0.005137*WS*VPD + 0.03199*VPD*VPD,False
+Operon,loso_Ma2,loso,0,True,True,True,True,(0.0001 + (1.0003 * ((((((0.1670 * WS) + exp(((-0.7163) * WS))) / (2.0623 - ((-0.0298) * SW))) * (((0.0179 * T) - 0.2606) - (0.1137 * VPD))) + ((exp((0.0120 * VPD)) - (0.0696 * WS)) - ((-0.0080) * VPD,False
+Operon,loso_Ma2,loso,1,True,True,True,True,((-0.0006) + (0.9957 * (((((((((-0.0431) * T) + (0.3896 * VPD)) + (((0.0000 * SW) - 0.1021) * ((3.9202 * VPD) - 25.8509))) - 1.7434) * exp(((-0.0039) * SW))) + ((-0.0006) * SW)) - (((-0.0427) * T) - (,False
+Operon,loso_Ma2,loso,2,True,True,True,True,((-0.0005) + (1.0000 * ((((0.0013 * T) - (0.0004 * SW)) * (((-0.2055) * WS) + (6.4665 - ((3.8746 - (0.0036 * SW)) * (((0.0701 * VPD) - ((-0.0005) * WS)) - (0.0007 * SW)))))) + (((-0.0733) * WS) + (0.0,False
+SINDy,loso_Sa1,loso,0,True,True,True,True,-0.1274*WS + -0.00173*VPD + -0.05187*T*T + 0.03489*T*SWs + -0.03828*T*WS + 0.05499*T*VPD + -0.0444*SWs*SWs + 0.0252*SWs*WS + 0.002467*SWs*VPD + -0.06025*WS*WS + 0.05849*WS*VPD + 0.01292*VPD*VPD,False
+Operon,loso_Sa1,loso,0,False,True,True,True,(0.0006 + (1.0158 * (((((0.0089 * VPD) + (-0.1902)) * exp((0.3207 * WS))) - 0.5184) + ((exp(((-0.0144) * SW)) * (((0.0117 * WS) - (0.0068 * SW)) + (((-0.0316) * VPD) - 0.0750))) + (exp((0.0038 * VPD)),False
+Operon,loso_Sa1,loso,1,True,True,True,False,((-0.0005) + (0.9957 * ((((0.1710 * T) - ((0.0028 * SW) - (((((-0.7541) * WS) - ((-0.6363) * T)) + (((-0.0207) * WS) + 4.1964)) * ((0.0266 * WS) + (-0.0910))))) - ((-0.7660) - ((-0.6081) * WS))) - exp,False
+Operon,loso_Sa1,loso,2,True,True,True,True,(0.0035 + (0.9926 * ((((1.0152 - (0.0046 * SW)) - ((0.0468 * T) - ((0.0112 * WS) - (0.0223 * VPD)))) * exp(((-0.0118) * SW))) - (exp((((-0.0151) * T) - (((-0.1177) * WS) - ((-0.0191) * VPD)))) - (0.29,False
+SINDy,loso_Ma3,loso,0,True,True,True,True,-0.1088*WS + -0.03351*VPD + -0.08212*T*T + 0.0005465*T*SWs + -0.03586*T*WS + 0.1316*T*VPD + -0.02389*SWs*SWs + 0.01284*SWs*WS + 0.02787*SWs*VPD + -0.06091*WS*WS + 0.05915*WS*VPD + -0.02363*VPD*VPD,False
+Operon,loso_Ma3,loso,0,False,True,True,True,((-0.0020) + (1.0088 * (((((11.0050 + ((0.0481 * VPD) + 4.5939)) - (0.0162 * SW)) * (-0.0008)) * (((((-2.7947) * VPD) + 6.3450) * ((0.0027 * SW) + (-3.7023))) + ((-9.7173) * VPD))) - (exp((0.3091 * WS,False
+Operon,loso_Ma3,loso,1,True,True,True,True,((-0.0004) + (1.0011 * ((((((0.0037 * T) - (0.0022 * SW)) - (-0.5352)) * ((((-0.0311) * T) - (0.0101 * VPD)) - (((-0.0005) * SW) - 0.2226))) - (((((-0.0089) * WS) - ((-0.0017) * T)) - ((-0.0000) * SW),False
+Operon,loso_Ma3,loso,2,True,True,True,True,(0.0000 + (1.0028 * ((((-0.0004) * SW) - (-0.3454)) - (((0.1924 - (((0.8867 * SW) + ((-1.9731) * T)) * (((-0.0005) - ((-0.0000) * T)) * exp((2.6744 + ((-0.0025) * SW)))))) * exp((0.2619 * WS))) + ((-0,False
+SINDy,loso_Sa3,loso,0,True,True,True,True,-0.1229*WS + -0.01843*VPD + -0.04277*T*T + 0.01975*T*SWs + 0.004936*T*WS + 0.03767*T*VPD + -0.03497*SWs*SWs + 0.01604*SWs*WS + 0.01956*SWs*VPD + -0.05688*WS*WS + 0.004293*WS*VPD + 0.02247*VPD*VPD,False
+Operon,loso_Sa3,loso,0,True,True,True,True,((-0.0000) + (1.0000 * ((((((-0.0002) * VPD) + 0.0002) * (((9.4125 - ((-0.0206) * SW)) * ((-31.2526) + (0.0185 * SW))) + ((-14.7634) * WS))) + ((-0.0947) * VPD)) - (((-1.0031) - (-1.1459)) - ((((-0.10,False
+Operon,loso_Sa3,loso,1,True,True,True,True,((-0.0000) + (0.9990 * ((((((((-0.0351) * WS) - ((-0.0130) * T)) - 0.3959) + (0.0002 * SW)) * (((0.7179 * WS) - ((-0.1325) * T)) + (0.0886 * VPD))) - exp((0.0011 * SW))) + (((-0.0342) * T) - (((-0.172,False
+Operon,loso_Sa3,loso,2,True,True,True,False,(0.0000 + (0.9997 * (((((0.9093 - ((-0.0253) * T)) * exp((0.1429 * WS))) + ((((0.0004 * T) + ((-0.0001) * SW)) * ((((-1.8232) * T) - ((-0.0165) * SW)) + ((-1.2692) * WS))) + exp((-3.5868)))) - exp((0.,False
+SINDy-ext,local_Ji3,local,0,True,True,True,True,-0.6338*WS + 1.811*VPD + -0.199*T*T + -0.2285*T*SWs + -0.1679*T*WS + 0.4574*T*VPD + 0.2522*SWs*SWs + -0.1073*SWs*WS + 0.2269*SWs*VPD + -0.007314*WS*WS + 0.226*WS*VPD + -0.4025*VPD*VPD + 0.008443*T^3 +,False
+gplearn,local_Ji3,local,0,True,True,True,True,"sub(sub(div(0.368, add(VPD, div(div(mul(0.388, 0.759), add(VPD, div(0.368, add(mul(0.388, 0.759), T)))), add(VPD, div(SW, add(VPD, div(SW, mul(0.552, VPD)))))))), div(div(SW, mul(T, VPD)), T)), mul(mu",False
+gplearn,local_Ji3,local,1,True,True,True,True,"mul(log(add(log(sqrt(mul(log(VPD), div(0.330, add(add(VPD, T), sqrt(-0.081)))))), log(div(sqrt(mul(log(VPD), VPD)), sqrt(div(div(add(div(SW, div(sqrt(-0.081), add(VPD, T))), sqrt(div(div(add(VPD, T), ",False
+gplearn,local_Ji3,local,2,True,True,True,True,"mul(div(mul(VPD, mul(div(sqrt(div(log(mul(sub(div(T, VPD), sqrt(log(sqrt(sub(log(T), div(T, SW)))))), div(mul(sub(mul(WS, 0.789), add(WS, -0.426)), mul(div(sqrt(div(log(log(0.838)), mul(sqrt(log(sqrt(",False
+SINDy-ext,local_Ma2,local,0,True,True,True,True,2.047*WS + -0.3146*VPD + -0.0826*T*T + 0.0923*T*SWs + -0.0759*T*WS + 0.07781*T*VPD + 0.2151*SWs*SWs + 0.04042*SWs*WS + -0.07639*SWs*VPD + -0.1515*WS*WS + 0.1506*WS*VPD + 0.04124*VPD*VPD + 0.02433*T^3 ,False
+gplearn,local_Ma2,local,0,True,True,True,True,"sqrt(div(add(mul(mul(0.441, 0.424), 0.424), div(-0.496, WS)), add(add(add(T, SW), sub(T, add(sqrt(sqrt(div(add(mul(0.441, 0.424), div(-0.496, WS)), add(add(div(sqrt(sub(add(mul(0.441, 0.424), div(add(",False
+gplearn,local_Ma2,local,1,True,False,True,True,"mul(log(add(log(-0.082), sqrt(WS))), div(sub(sqrt(WS), log(div(div(log(-0.082), add(add(VPD, T), add(add(add(VPD, T), log(WS)), sqrt(log(div(div(div(VPD, VPD), add(log(-0.082), T)), T)))))), T))), add",False
+gplearn,local_Ma2,local,2,True,False,True,True,"sqrt(div(log(div(log(mul(WS, div(mul(WS, sqrt(sub(add(VPD, VPD), sqrt(div(sqrt(div(log(div(log(mul(WS, sqrt(add(WS, VPD)))), div(sqrt(div(0.918, log(sqrt(sqrt(WS))))), T))), div(WS, 0.269))), div(0.91",False
+SINDy-ext,local_Sa1,local,0,True,True,True,True,2.441*WS + -0.3066*VPD + -0.004478*T*T + 0.0154*T*SWs + 0.04729*T*WS + -0.02483*T*VPD + 0.04401*SWs*SWs + 0.001778*SWs*WS + 0.01248*SWs*VPD + -0.126*WS*WS + -0.03636*WS*VPD + 0.1106*VPD*VPD + 0.02385*,False
+gplearn,local_Sa1,local,0,False,False,False,False,0.021,False
+gplearn,local_Sa1,local,1,True,False,True,True,"div(div(log(div(log(VPD), div(div(sub(VPD, mul(T, WS)), mul(sub(T, T), div(log(div(div(sub(VPD, VPD), mul(T, WS)), mul(T, WS))), sub(VPD, VPD)))), mul(T, WS)))), sub(VPD, VPD)), mul(T, WS))",False
+gplearn,local_Sa1,local,2,False,False,False,False,"sub(0.941, 0.918)",False
+SINDy-ext,local_Ma3,local,0,True,True,True,True,-28.93*WS + -0.2867*VPD + -0.003013*T*T + 0.03353*T*SWs + -0.07514*T*WS + -0.03148*T*VPD + 0.1289*SWs*SWs + 0.1223*SWs*WS + -0.0363*SWs*VPD + 1.578*WS*WS + 0.1368*WS*VPD + 0.0701*VPD*VPD + 0.03731*T^3,False
+gplearn,local_Ma3,local,0,True,False,True,True,"sub(div(sqrt(sqrt(div(sqrt(add(sub(div(sqrt(mul(WS, T)), sub(sqrt(mul(WS, T)), VPD)), T), sub(T, T))), sqrt(sqrt(add(VPD, 0.263)))))), mul(WS, T)), div(sub(sqrt(sqrt(add(VPD, sub(sqrt(VPD), sqrt(sub(m",False
+gplearn,local_Ma3,local,1,True,False,True,True,"div(add(div(VPD, VPD), sqrt(div(mul(WS, T), mul(div(sub(sqrt(div(div(T, VPD), mul(div(div(VPD, VPD), mul(div(sub(add(div(VPD, VPD), div(VPD, VPD)), div(T, VPD)), div(T, VPD)), add(sub(VPD, VPD), mul(W",False
+gplearn,local_Ma3,local,2,False,False,True,False,"mul(sqrt(mul(sqrt(mul(WS, sub(mul(WS, sub(mul(WS, 0.789), add(WS, -0.426))), add(mul(sqrt(mul(sqrt(mul(mul(WS, 0.789), sqrt(add(WS, sqrt(mul(sqrt(sqrt(mul(sqrt(add(WS, mul(WS, 0.789))), WS))), sqrt(su",True
+SINDy-ext,local_Sa3,local,0,True,True,True,True,2.469*WS + -1.376*VPD + -0.008069*T*T + -0.02549*T*SWs + 0.03825*T*WS + 0.00408*T*VPD + 0.2012*SWs*SWs + 0.03039*SWs*WS + 0.02832*SWs*VPD + -0.1744*WS*WS + -0.002333*WS*VPD + 0.1853*VPD*VPD + 0.02623*,False
+gplearn,local_Sa3,local,0,True,True,True,False,"div(0.368, add(sqrt(mul(add(sqrt(mul(add(WS, mul(T, SW)), WS)), mul(T, WS)), WS)), div(add(add(sqrt(mul(add(sqrt(mul(mul(T, SW), WS)), mul(T, WS)), WS)), div(add(add(div(WS, WS), WS), sqrt(WS)), mul(m",False
+gplearn,local_Sa3,local,1,True,True,True,False,"div(add(sub(sqrt(sqrt(mul(WS, T))), WS), sub(add(add(sub(add(sqrt(WS), sqrt(sqrt(WS))), WS), sqrt(div(-0.336, SW))), sqrt(WS)), WS)), add(add(add(div(add(WS, WS), SW), sqrt(WS)), div(sqrt(WS), SW)), a",False
+gplearn,local_Sa3,local,2,True,True,True,False,"div(sqrt(log(log(WS))), sub(add(div(mul(div(div(SW, SW), T), T), T), sub(T, -0.648)), mul(log(T), mul(mul(div(div(SW, SW), T), log(T)), sub(T, SW)))))",False
+SINDy-ext,loso_Ji3,loso,0,False,False,False,False,nan,False
+gplearn,loso_Ji3,loso,0,True,False,True,True,"div(sqrt(add(WS, log(div(sqrt(log(add(div(sqrt(add(WS, log(div(sqrt(log(add(WS, div(sqrt(sub(VPD, VPD)), WS)))), mul(WS, T))))), mul(WS, T)), WS))), mul(WS, T))))), mul(WS, T))",False
+gplearn,loso_Ji3,loso,1,True,False,True,False,"div(sqrt(sqrt(mul(T, WS))), add(div(div(sqrt(sqrt(sqrt(sqrt(mul(T, WS))))), WS), sqrt(WS)), mul(add(div(sqrt(T), WS), mul(T, WS)), WS)))",False
+gplearn,loso_Ji3,loso,2,True,False,True,False,"sqrt(div(div(-0.654, mul(WS, WS)), mul(sqrt(div(-0.654, sqrt(div(div(-0.654, div(div(-0.654, mul(WS, WS)), mul(sqrt(sqrt(div(-0.654, sqrt(log(sqrt(mul(WS, WS))))))), div(T, 0.132)))), div(T, 0.132))))",False
+SINDy-ext,loso_Ma2,loso,0,False,False,False,False,nan,False
+gplearn,loso_Ma2,loso,0,True,False,True,True,"div(add(-0.994, add(-0.994, mul(log(WS), sub(WS, sub(VPD, VPD))))), sub(log(add(-0.994, add(-0.994, add(-0.994, sub(WS, sub(VPD, VPD)))))), T))",False
+gplearn,loso_Ma2,loso,1,True,True,True,True,"mul(log(log(-0.082)), div(sub(sqrt(T), div(WS, 0.621)), add(add(add(VPD, T), div(add(sub(sqrt(T), div(WS, 0.621)), div(SW, 0.621)), add(add(VPD, T), sub(sqrt(T), div(WS, 0.621))))), sqrt(mul(WS, T))))",False
+gplearn,loso_Ma2,loso,2,True,False,True,False,"div(add(sub(div(log(T), log(T)), div(mul(WS, 0.789), log(T))), -0.426), log(add(div(mul(WS, 0.789), log(T)), add(add(sub(log(T), div(add(sub(div(log(T), add(div(log(add(T, T)), log(T)), sub(T, -0.648)",False
+SINDy-ext,loso_Sa1,loso,0,False,False,False,False,nan,False
+gplearn,loso_Sa1,loso,0,True,False,True,False,"div(sqrt(sqrt(add(add(log(sqrt(add(mul(mul(mul(WS, WS), WS), mul(mul(mul(WS, WS), WS), WS)), T))), T), sqrt(add(mul(mul(mul(mul(mul(WS, WS), WS), WS), WS), WS), T))))), add(mul(mul(mul(WS, WS), WS), m",False
+gplearn,loso_Sa1,loso,1,True,False,True,True,"mul(log(add(log(T), div(mul(log(add(log(T), div(sub(sqrt(T), WS), add(add(log(add(log(-0.082), log(WS))), T), add(sqrt(-0.626), WS))))), div(sub(sqrt(T), add(sqrt(WS), add(sqrt(-0.626), WS))), add(T, ",False
+gplearn,loso_Sa1,loso,2,True,False,True,True,"div(div(sub(div(mul(WS, 0.789), sqrt(sqrt(-0.840))), add(WS, -0.426)), sqrt(add(T, div(div(add(WS, -0.426), mul(0.216, T)), sqrt(add(T, sqrt(add(T, add(T, div(add(T, div(sub(div(mul(WS, 0.789), sqrt(s",False
+SINDy-ext,loso_Ma3,loso,0,False,False,False,False,nan,False
+gplearn,loso_Ma3,loso,0,True,False,True,False,"div(add(-0.994, log(WS)), sub(div(0.448, div(sqrt(div(T, T)), sub(add(WS, add(WS, add(WS, add(-0.994, log(WS))))), sub(div(add(WS, add(WS, log(WS))), sub(sub(sqrt(div(T, T)), T), T)), T)))), T))",False
+gplearn,loso_Ma3,loso,1,True,False,True,False,"div(sub(sub(sqrt(T), WS), WS), add(T, add(sub(sub(sqrt(T), WS), WS), sub(log(add(log(sqrt(T)), log(T))), WS))))",False
+gplearn,loso_Ma3,loso,2,True,True,True,False,"div(div(sub(log(T), add(WS, div(sub(mul(WS, 0.789), div(sub(sub(T, SW), sqrt(T)), add(mul(log(mul(0.216, T)), mul(mul(0.216, T), mul(0.216, T))), log(sub(log(T), add(WS, sub(mul(WS, 0.789), div(sub(mu",False
+SINDy-ext,loso_Sa3,loso,0,False,False,False,False,nan,False
+gplearn,loso_Sa3,loso,0,True,False,True,False,"div(add(-0.994, add(-0.994, add(add(-0.994, add(-0.994, WS)), add(-0.994, WS)))), sub(sub(add(-0.994, add(add(-0.994, log(WS)), add(add(-0.994, add(-0.994, add(-0.994, add(add(-0.994, add(-0.994, WS))",False
+gplearn,loso_Sa3,loso,1,True,True,True,True,"sub(div(sqrt(T), add(mul(div(WS, T), add(SW, add(T, add(add(mul(WS, add(log(T), T)), T), add(T, mul(div(WS, T), add(SW, add(T, add(VPD, T))))))))), add(VPD, T))), div(WS, T))",False
+gplearn,loso_Sa3,loso,2,False,False,True,False,"mul(sqrt(mul(sqrt(sub(mul(mul(WS, 0.789), 0.789), add(sqrt(mul(add(WS, -0.426), sqrt(div(WS, mul(WS, 0.789))))), -0.426))), sub(mul(mul(WS, 0.789), 0.789), add(mul(WS, 0.789), -0.426)))), sub(mul(mul(",True

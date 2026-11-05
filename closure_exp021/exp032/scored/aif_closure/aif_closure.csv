@@ -1,0 +1,11 @@
+task,seed,equation,is_best,status,seconds
+local_Sa3,0,tan(0.05483274292*sin(WS)),True,ok,1800.9
+local_Sa1,0,tan(0.006540384534*log(T)),True,ok,1800.9
+loso_Sa3,0,0,True,ok,1800.8
+loso_Ji3,0,tan(0.115343283647 - WS/T),True,ok,1800.9
+local_Ji3,0,tan(0.181463413198/VPD),True,ok,1800.9
+loso_Ma2,0,0.001243040171*T,True,ok,1800.7
+local_Ma3,0,0.053355479521/WS,True,ok,1800.8
+loso_Sa1,0,tan(0.014157127752 + 1/T),True,ok,1800.8
+local_Ma2,0,0.002283830017*T,True,ok,1800.8
+loso_Ma3,0,tan(0.002003453544*T*(pi - WS)),True,ok,1800.9

@@ -1,0 +1,29 @@
+task,seed,equation,is_best,status,seconds
+local_Sa1,0,0.000772347994*T,True,ok,1800.2
+loso_Ma3,0,tan(0.001502347084 + 1/T),True,ok,1800.2
+RH__Ji3__loso__0,0,107.98 - T,True,ok,1800.2
+RH__Ma3__loso__0,0,666.0/(T - 1),True,ok,1800.1
+RH__Sa3__loso__0,0,666.0*pi/T,True,ok,1800.1
+Rn__Ma3__loso__0,0,SW*sin(cos(sin(1/(-1 + pi)))) - 20.9,True,ok,1800.2
+Rn__Sa3__loso__0,0,SW*exp(1 - exp(1/log(SW))) - 24.6,True,ok,1800.1
+local_Ji3,0,0.191806546479/VPD,True,ok,1800.2
+local_Sa3,0,tan(0.0528942334*sin(WS)),True,ok,1800.1
+loso_Sa1,0,-tan(0.002032509749*T*(WS - pi)),True,ok,1800.2
+RH__Ma2__local__0,0,666.0*pi/T,True,ok,1800.1
+RH__Sa1__local__0,0,666.0/(T - pi),True,ok,1800.1
+Rn__Ma2__local__0,0,0.846019773995*SW,True,ok,1800.2
+Rn__Sa1__local__0,0,pi*SW*exp(-sqrt(-1 + pi)) - 19.2,True,ok,1800.1
+local_Ma3,0,tan(0.006213405629*T*cos(WS)),True,ok,1800.2
+loso_Ma2,0,-0.171532045621 + 1/(WS + pi),True,ok,1800.1
+RH__Ji3__local__0,0,-94.8*T/Tmin + 189.6,True,ok,1800.2
+RH__Ma3__local__0,0,666.0/(T - pi),True,ok,1800.1
+RH__Sa3__local__0,0,666.0/(T - 1),True,ok,1800.1
+Rn__Ma3__local__0,0,SW*sin(1) - 32.26,True,ok,1800.2
+Rn__Sa3__local__0,0,SW*exp(-1/(1 + pi)) - 20.84,True,ok,1800.1
+local_Ma2,0,tan(0.018367150113 + 1/T),True,ok,1800.2
+loso_Ji3,0,tan(0.001425253956*T*(pi - WS)),True,ok,1800.2
+loso_Sa3,0,tan(0.001738377623*T*(-WS + log(T))),True,ok,1800.3
+RH__Ma2__loso__0,0,106.68 - T,True,ok,1800.1
+RH__Sa1__loso__0,0,106.34 - T,True,ok,1800.1
+Rn__Ma2__loso__0,0,SW*cos(pi**(3/2)) - 21.0,True,ok,1800.2
+Rn__Sa1__loso__0,0,SW*sin(1) - 25.49,True,ok,1800.1
