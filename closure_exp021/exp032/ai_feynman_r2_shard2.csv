@@ -1,0 +1,6 @@
+task,seed,equation,is_best,status,seconds
+local_Ma3,0,0.005813471959*T*cos(WS),True,ok,1801.2
+loso_Sa1,0,tan(0.014343910091 + 1/T),True,ok,1800.8
+RH__Ma3__local__0,0,666.0/(T - pi),True,ok,1800.6
+Rn__Ma2__local__0,0,SW*sin(sqrt(log(pi))) - 25.04,True,ok,1800.6
+Rn__Sa3__local__0,0,SW*sin(cos(pi*(-1 + pi))) - 21.09,True,ok,1800.5
