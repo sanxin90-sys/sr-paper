@@ -1,0 +1,18 @@
+RH__Ji3__local__0 | 666.0/T
+RH__Sa1__local__0 | 666.0*pi/(T - 1)
+Rn__Ma3__local__0 | SW*sin(SW/(SW - 2)) - 32.31
+RH__Ma3__loso__0 | 666.0/(T - 1)
+Rn__Ma2__loso__0 | SW*sin(sin(1/sin(sqrt(pi)))) - 20.9
+Rn__Sa3__loso__0 | SW*log(-1 + pi) - 21.1
+RH__Ji3__loso__0 | 107.82 - T
+RH__Sa1__loso__0 | 666.0/(T - 1)
+Rn__Ma3__loso__0 | SW*log(log(-1 + pi**2)) - 20.9
+RH__Ma2__local__0 | 666.0*pi/T
+RH__Sa3__local__0 | 666.0/(T - 1)
+Rn__Sa1__local__0 | SW/(sin(sqrt(-1 + log(pi))) + 1) - 19.2
+RH__Ma3__local__0 | 108.14 - T
+Rn__Ma2__local__0 | SW*cos(1/(pi - log(pi))) - 24.96
+Rn__Sa3__local__0 | SW*cos(cos(sin(1))) - 21.32
+RH__Ma2__loso__0 | 106.35 - T
+RH__Sa3__loso__0 | 111.48 - T
+Rn__Sa1__loso__0 | SW*exp(-1/(2*(-1 + pi))) - 21.3

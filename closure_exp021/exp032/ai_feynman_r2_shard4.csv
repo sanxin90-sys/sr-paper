@@ -1,0 +1,5 @@
+task,seed,equation,is_best,status,seconds
+local_Sa3,0,0.000480879402761233*sqrt(SW),True,ok,1801.0
+RH__Ji3__local__0,0,666.0/T,True,ok,1800.8
+RH__Sa1__local__0,0,666.0/(T - pi),True,ok,1800.5
+Rn__Ma3__local__0,0,SW*sin(1) - 32.15,True,ok,1800.4
